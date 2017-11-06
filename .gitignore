@@ -1,6 +1,3 @@
 *.lck
-*.bak_000f
+*.bak*
 *.DS_Store
-*.bak_000d
-*.bak_001f
-src/Klassediagram/Klassediagram.vpp.bak_002d
