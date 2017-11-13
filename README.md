@@ -6,9 +6,11 @@ Exam in Object-orient analyze and design 2017 at USN.
 ```
 project
 │   README.md
-│   index.html
+│
+├─── innlevering (html files) index.html
+│    
 │ 
-├───src (Visual Paradigm files)
+├─── src (Visual Paradigm files)
 │   
 │
 └── dist (svg files)
