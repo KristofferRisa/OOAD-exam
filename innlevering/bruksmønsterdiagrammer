@@ -10,4 +10,10 @@
 
 <h3>Bruksmønsterdiagrammer</h3>
 
-// 
+// Bruksmønsterdiagrammer omtales og som use case. Dette er en av de fem dynamiske diagrammene som vises i boken Objektorienter
+systemutvikling og UML, skrevet av Viggo Holmstedt. Use case beskriver de funksjonelle kravene til systemet, 
+dvs hvordan systemet responderer på eksterne hendelser og hvem som kan brukse systemet. 
+
+Vi har valgt å bruke use case, fordi dette er en enkel måte for oss å vise oppdraggsgiver hvilke kravspesifikasjoner vi har 
+oppfylt i dette systemet. Use Case er en av de mest inuative diagrammene, og gjør det derfor
+veldig lett for alle parter å forklare og forstå. 
