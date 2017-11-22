@@ -238,8 +238,10 @@
     ><ellipse rx="57" fill="none" ry="20" clip-path="url(#clipPath4)" cx="57" cy="20"
     /></g
     ><g font-size="11" transform="translate(515,366)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
-    ><text x="21" xml:space="preserve" y="24" clip-path="url(#clipPath5)" stroke="none"
-      >Se animering</text
+    ><text x="28" xml:space="preserve" y="17" clip-path="url(#clipPath5)" stroke="none"
+      >Oppdatere</text
+      ><text x="30" xml:space="preserve" y="31" clip-path="url(#clipPath5)" stroke="none"
+      >animering</text
     ></g
     ><g font-size="11" transform="translate(215,491)" fill-opacity="1" fill="rgb(122,207,245)" text-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(122,207,245)" stroke-opacity="1"
     ><ellipse rx="57" ry="20" clip-path="url(#clipPath4)" cx="57" cy="20" stroke="none"
@@ -268,8 +270,8 @@
     ><ellipse rx="57" fill="none" ry="20" clip-path="url(#clipPath4)" cx="57" cy="20"
     /></g
     ><g font-size="11" transform="translate(261,366)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
-    ><text x="13" xml:space="preserve" y="24" clip-path="url(#clipPath5)" stroke="none"
-      >Endre animering</text
+    ><text x="12" xml:space="preserve" y="24" clip-path="url(#clipPath5)" stroke="none"
+      >Hente animering</text
     ></g
     ><g font-size="11" transform="translate(345,0)" fill-opacity="1" fill="rgb(122,207,245)" text-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(122,207,245)" stroke-opacity="1"
     ><circle r="7.5" clip-path="url(#clipPath11)" cx="14.5" cy="7.5" stroke="none"
@@ -308,8 +310,8 @@
     ><ellipse rx="57" fill="none" ry="20" clip-path="url(#clipPath4)" cx="57" cy="20"
     /></g
     ><g font-size="11" transform="translate(388,366)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
-    ><text x="42" xml:space="preserve" y="24" clip-path="url(#clipPath5)" stroke="none"
-      >Slette</text
+    ><text x="8" xml:space="preserve" y="24" clip-path="url(#clipPath5)" stroke="none"
+      >Legg til animering</text
     ></g
     ><g font-size="11" transform="translate(468,9)" fill-opacity="1" fill="rgb(122,207,245)" text-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(122,207,245)" stroke-opacity="1"
     ><rect x="0" width="136" height="59" y="0" clip-path="url(#clipPath12)" stroke="none"
@@ -387,7 +389,7 @@
       /><line clip-path="url(#clipPath40)" stroke-dashoffset="0" fill="none" x1="50" x2="44" y1="131" y2="119" stroke-dasharray="none"
     /></g
     ><g stroke-linecap="butt" font-size="11" transform="translate(465,385)" fill-opacity="1" stroke-dashoffset="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke-linejoin="round" stroke-dasharray="5" stroke="black" stroke-opacity="1"
-    ><line y2="50" fill="none" x1="268" clip-path="url(#clipPath42)" x2="50" y1="50"
+    ><line y2="50" fill="none" x1="268" clip-path="url(#clipPath42)" x2="50" y1="53"
       /><line y2="106" fill="none" x1="50" clip-path="url(#clipPath42)" x2="50" y1="50"
       /><line clip-path="url(#clipPath42)" stroke-dashoffset="0" fill="none" x1="50" x2="56" y1="106" y2="94" stroke-dasharray="none"
       /><line clip-path="url(#clipPath42)" stroke-dashoffset="0" fill="none" x1="50" x2="44" y1="106" y2="94" stroke-dasharray="none"
