@@ -10,4 +10,9 @@
 
 <h3>Aktivitetsdiagram</h3>
 
-Et aktivitetsdiagram kan grafisk representere hendelsesflyten i et use case (Arisholm, 2010)
+Et aktivitetsdiagram brukes til å beskrive hvilken rekkefølge en bruker eller et objekt må utføre aktiviteter i for
+å gjennomføre en bestemt prosess. Dette er en av sju UML-diagrammer som kan vise de dybamiske sidene i systemet. 
+
+Det er naturlig for å oss å inkludere et aktivitetsdiagram når vi allerede har bruksmønsterdiagram. Ofte er det et 
+brukstilfelle som er utgangspunktet for aktivitetsdiagrammet. Bruksmønsterdiagrammet sammen med aktivitetsdiagrammet gir oss
+et godt bilde av hvordan systemet kan utnyttes, samt funksjonene som kan finnes her. 
