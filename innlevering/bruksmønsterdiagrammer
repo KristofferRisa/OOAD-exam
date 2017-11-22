@@ -10,7 +10,7 @@
 
 <h3>Bruksmønsterdiagrammer</h3>
 
-// Bruksmønsterdiagrammer omtales og som use case. Dette er en av de fem diagramtypene som viser de dynamiske sidene i systemet
+// Bruksmønsterdiagrammer omtales og som use case. Dette er en av sju diagramtypene som viser de dynamiske sidene i systemet
 (Holmstedt, 2004). Use case beskriver de funksjonelle kravene til systemet, det vil si hvordan systemet responderer 
 på eksterne hendelser og hvem som kan brukse systemet. 
 
