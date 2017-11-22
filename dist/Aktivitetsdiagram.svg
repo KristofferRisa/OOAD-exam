@@ -15,7 +15,7 @@
       ><path d="M-7 -7 L51 -7 L51 31 L-7 31 L-7 -7 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath4"
-      ><path d="M0 0 L0 62 L134 62 L134 0 Z"
+      ><path d="M0 0 L0 48 L134 48 L134 0 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath5"
       ><path d="M-7 -7 L31 -7 L31 51 L-7 51 L-7 -7 Z"
@@ -101,13 +101,11 @@
     ><rect x="1" y="1" clip-path="url(#clipPath1)" fill="none" width="132" rx="15" ry="15" height="65"
     /></g
     ><g font-size="11" transform="translate(143,268)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" font-weight="bold" stroke-opacity="1"
-    ><text x="13" xml:space="preserve" y="17" clip-path="url(#clipPath4)" stroke="none"
-      >Redigere animasjon</text
-      ><text x="52" xml:space="preserve" y="31" clip-path="url(#clipPath4)" stroke="none"
+    ><text x="52" xml:space="preserve" y="17" clip-path="url(#clipPath4)" stroke="none"
       >Legge</text
-      ><text x="11" xml:space="preserve" y="45" clip-path="url(#clipPath4)" stroke="none"
+      ><text x="11" xml:space="preserve" y="31" clip-path="url(#clipPath4)" stroke="none"
       >til/fjerne/oppdatere</text
-      ><text x="40" xml:space="preserve" y="59" clip-path="url(#clipPath4)" stroke="none"
+      ><text x="40" xml:space="preserve" y="45" clip-path="url(#clipPath4)" stroke="none"
       >animering</text
     ></g
     ><g font-size="11" transform="translate(197,189)" fill-opacity="1" fill="rgb(122,207,245)" text-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(122,207,245)" stroke-opacity="1"
