@@ -1,11 +1,21 @@
 <!doctype html>
 <html lang="no">
 
-<head> <meta charset="utf-8">
+<head>
+    <meta charset="utf-8">
     <title>SVG Animering</title>
     <meta name="description" content="Eksamen USN 2017">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
     <style>
+        img {
+            width: auto;
+            height: auto;
+        }
+    </style>
+    <!-- <style>
         body {
             width:80%;
             margin: auto;
@@ -13,31 +23,231 @@
         object {
             margin: 2em;
         }
-    </style>
+    </style> -->
 </head>
 
 <body>
-    <h1>SVG-animering system</h1>
-    <hr>
-    <h2>Innleveringsoppgave i IS-OBJ3000-1 høsten 2017</h2>
-    <h3>Use case</h3>
-    <p>Følg link under for å se Use Case diagram for SVG-animering system.</p>
-    <a href="dist/svg_use_case.svg">Use case svg</a>
-    <object data="dist/svg_use_case.svg" type="image/svg+xml">
-        <img src="yourfallback.jpg" />
-      </object>
-    <br>
-    <h3>Aktivitetsdiagram</h3>
-    <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
-    <a href="dist/svg_activitydiagram.svg">Aktivitetsdiagram</a>
-    <object data="dist/svg_activitydiagram.svg" type="image/svg+xml">
-        <img src="yourfallback.jpg" />
-      </object>
+    <nav id="nav" class="nav">
+        <ul>
+
+            <li>
+                <a href="#">Hjem</a>
+            </li>
+            <li>
+                <a href="#Diagrammer">Diagrammer &#9662;</a>
+                <ul class="dropdown">
+                    <li>
+                        <a href="#Klassediagram">Klassediagram</a>
+                    </li>
+                    <li>
+                        <a href="#Objektdiagram">Objektdiagram</a>
+                    </li>
+                    <li>
+                        <a href="#Pakkediagram">Pakkediagram</a>
+                    </li>
+                    <li>
+                        <a href="#UseCase">Use Cases</a>
+                    </li>
+                    <li>
+                        <a href="#Aktivitetsdiagram">Aktivitetsdiagram</a>
+                    </li>
+                    <li>
+                        <a href="#Kommunikasjonsdiagram">Kommunikasjonsdiagram</a>
+                    </li>
+                    <li>
+                        <a href="#Interaksjonsdiagram">Interaksjonsdiagram</a>
+                    </li>
+                    <li>
+                        <a href="#Sekvensdiagram">Sekvensdiagram</a>
+                    </li>
+                    <li>
+                        <a href="#Tidsdelingsdiagram">Tidsdelingsdiagram</a>
+                    </li>
+                    <li>
+                        <a href="#Tilstandsdiagram">Tilstandsdiagram</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="./#om">Gruppen</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="container">
+
+        <head class="header">
+            <h1>SVG-animering system</h1>
+            <hr>
+            <h2>Innleveringsoppgave i IS-OBJ3000-1 høsten 2017</h2>
+        </head>
+        <section class="two-col">
+            <p>Vi har laget bla bla
+            </p>
+            <p> dgasdgdsagasgasdgs</p>
+            <br>
+            <br>
+        </section>
+
+        <h1 class="heading">Gruppen</h1>
+        <section class="one-col">
+
+            <p>Laget av:
+                <strong>Unni Le, Martin Wiulsrød, Martin Petersen og Kristoffer Risa</strong>
+            </p>
+        </section>
+
+        <h1 class="heading">Om systemet</h1>
+
+        <h1 class="heading">Diagrammer</h1>
+        <p>Her kommer våre diagrammer</p>
+
+        <article id="klassediagram">
+
+            <h2>Klassediagram</h2>
+            <section class="two-col">
+                <p>Følg link under for å se Use Case diagram for SVG-animering system.</p>
+                <a href="../dist/Klassediagram.svg">Use case svg</a>
+                <p>
+                        Klassediagrammer viser klasser, interface, eller programmersgrensesnit, og hvordan de henger sammen. Denne strukturen er forutsetningen for at klassene kan samarbeide om bestemte oppgvaer i systemet. (Viggo, s. 101)
+                    </p>
+                <p>
+                    GUI implementerer interfacet "IFilbehandler" for å ha mulighet til å for å få data fra objekter i klassen Disk når dataene er klare. Dette er av og til nødvendig i GUI-komponenter for å hindre at komponenter løser resten av brukerområdet og gir følelsen av å miste kontroll. (s.277 i boka)
+                </p>
+            </section>
+            <br>
+            <img src="../dist/klassediagram.svg">
+            <br>
+
+        </article>
+
+        <article id="objektdiagram">
+            <h1>Objektdiagram</h1>
+            <section class="two-col">
+
+                <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
+                <a href="../dist/objectdiagram.svg">Aktivitetsdiagram</a>
+
+            </section>
+            <br>
+            <img src="../dist/objectdiagram.svg">
+        </article>
+
+        <article id="pakkediagram">
+                <h1>Pakkediagram</h1>
+                <section class="two-col">
     
-    <!-- <button onclick="window.history.back();">Tilbake</button>
-     -->
-    <br>
-     
-    <p>Laget av: <strong>Unni Le, Martin Wiulsrød, Martin Petersen og Kristoffer Risa</strong></p>
+                    <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
+                    <a href="../dist/pakkediagram.svg">Aktivitetsdiagram</a>
+    
+                </section>
+                <br>
+                <img src="../dist/pakkediagram.svg">
+        </article>
+    
+        <article id="Tilstandsdiagram">
+                <h1>Tilstandsdiagram</h1>
+                <section class="two-col">
+    
+                    <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
+                    <a href="../dist/Tilstandsdiagram.svg">Aktivitetsdiagram</a>
+    
+                </section>
+                <br>
+                <img src="../dist/Tilstandsdiagram.svg">
+        </article>
+
+        <article id="Tidsdelingsdiagram">
+                <h1>Tilstandsdiagram</h1>
+                <section class="two-col">
+    
+                    <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
+                    <a href="../dist/Tidsdelingsdiagram.svg">Aktivitetsdiagram</a>
+    
+                </section>
+                <br>
+                <img src="../dist/Tidsdelingsdiagram.svg">
+        </article>
+
+        <article id="UseCase">
+                <h1>Tilstandsdiagram</h1>
+                <section class="two-col">
+    
+                    <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
+                    <a href="../dist/UseCase.svg">Aktivitetsdiagram</a>
+    
+                </section>
+                <br>
+                <img src="../dist/UseCase.svg">
+        </article>
+        
+        <article id="Sekvensdiagram">
+                <h1>Tilstandsdiagram</h1>
+                <section class="two-col">
+    
+                    <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
+                    <a href="../dist/Sekvensdiagram.svg">Aktivitetsdiagram</a>
+    
+                </section>
+                <br>
+                <img src="../dist/Sekvensdiagram.svg">
+        </article>
+
+        <article id="aktivitetsdiagram">
+            <h1>Aktivitetsdiagram</h1>
+            <section class="two-col">
+
+                <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
+                <a href="dist/svg_activitydiagram.svg">Aktivitetsdiagram</a>
+
+            </section>
+            <br>
+            <img src="../dist/Aktivitetsdiagram.svg">
+        </article>
+
+        <article id="Interaksjonsdiagram">
+                <h1>Aktivitetsdiagram</h1>
+                <section class="two-col">
+    
+                    <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
+                    <p>Interaksjonsoversikt viser aktiviteter og programflyt i en blanding av sekvensdiagram og aktivitetsdiagram.
+                            I våre diagrammer vises programflyten for aktivitetene "Åpne ny fil" og "Lagre Fil".</p>
+                    <a href="../dist/Interaksjonsdiagram.svg">Aktivitetsdiagram</a>
+    
+                </section>
+                <br>
+                <img src="../dist/Interaksjonsdiagram.svg">
+            </article>
+
+            <article id="Kommunikasjonsdiagram">
+                    <h1>Aktivitetsdiagram</h1>
+                    <section class="two-col">
+        
+                        <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
+                        <a href="../dist/Kommunikasjonsdiagram.svg">Aktivitetsdiagram</a>
+        
+                    </section>
+                    <br>
+                    <img src="../dist/Kommunikasjonsdiagram.svg">
+                </article>
+
+
+            
+        
+    </main>
+    <footer>
+        <p>
+            |&nbsp;&nbsp;
+            <a href="http://www.hbv.no/studietilbud/bachelor-i-informasjonssystemer-og-it-ledelse/">Skoleprosjekt - Informasjonssystemer og IT-ledelse på Buskerud og Vestfold Høyskolen</a>&nbsp;&nbsp; |&nbsp;&nbsp;
+            <a href="https://www.hbv.no/">Besøk skolens hjemmeside</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="http://wedontknow.codes">Mer info om gruppen finnes her</a>&nbsp;&nbsp;|</p>
+        <p>|&nbsp;&nbsp;
+            <a href="mailto:post@wedontknow.codes">Sends oss en mail</a>&nbsp;&nbsp;|</p>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
