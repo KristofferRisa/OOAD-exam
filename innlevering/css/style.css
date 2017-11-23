@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+.logo {
+    background: gray;
+}
+
+/*
+	Font type og størrelse
+*/
+h1 {
+    font-size: 200%;
+    padding: 0px;
+    margin: 0;
+}
+
+h1,h2,h3,h4,figcaption,p,input,textarea {
+    font-family: 'Economica', sans-serif;
+}
+p {
+    font-family: 'Cutive Mono', sans-serif;
+}
+
+ul {
+    font-family: 'Cutive Mono', cursive;
+}
+
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+    Start NAV
+*/
+nav {
+    background: gray;
+    text-align: center;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+
+nav ul {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+nav ul {
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+    background: gray;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px 25px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #70B955;
+    background: gray;
+}
+
+nav ul li ul.dropdown {
+    min-width: 206px;
+    background: gray;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+
+nav ul li:hover ul.dropdown {
+    display: block;
+}
+
+nav ul li ul.dropdown li {
+    display: block;
+}
+
+/*    CSS for sticky navbar  */
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.navbar-fixed ~ .container{
+  margin-top: 78px;
+}
+/* Nav seksjon ferdig */
+
+/*  Footer seksjon  */
+footer {
+    background-color: black;
+    color: aliceblue;
+    opacity: 0.7;
+    padding: 30px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+
+footer p {
+    margin: auto;
+    width: 70%;
+    padding: 2px;
+    text-align: center;
+    color: #3B3B3E;
+    font-size: 90%;
+    text-align: center;
+    font-family: 'Economica', sans-serif;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+/* footer seksjon ferdig */
+
+.heading {
+    margin-top: 50px;   
+}
+
+.kontakt > input,textarea  {
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 110%;
+}
+
+.two-col {
+    -webkit-column-gap: 4em;
+    -moz-column-gap: 4em;
+    column-gap: 4em;  
+    -webkit-column-rule: 1px solid grey; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid grey; /* Firefox */
+    column-rule: 1px solid grey;
+ }
+
+/*    Responsiv pluss leservennlig   */
+@media screen and (min-width:1200px){
+  .two-col {
+      -webkit-columns: 2 200px;
+      -moz-columns: 2 200px;
+      columns: 2 200px;    
+      }
+   .wiki {
+       float: right;
+   }
+ .container {
+    padding: 40px;
+    margin: 0 auto;
+    width: 70%;
+ }
+}
+
+@media screen and (max-width:1199px){
+  .two-col {
+      -webkit-columns: 1 200px;
+      -moz-columns: 1 200px;
+      columns: 1 200px;  
+    }
+    
+    p,li,input,textarea {
+        font-size: 1.4em;
+    }
+    
+    
+    h1 {
+        font-size: 2.2em;
+    }
+    
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.8em;   
+    }
+    .container {
+        padding: 40px;
+        margin: 0 auto;
+        width: 70%;
+    }
+}
+/* tilpasset mobil  */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 40px;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
