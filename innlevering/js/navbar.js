@@ -3,7 +3,7 @@ document.write('<li><a href="Diagrammer.html">Diagrammer &#9662;</a><ul class="d
 document.write('<li><a href="Klassediagram.html">Klassediagram</a></li>');
 document.write('<li><a href="Objektdiagram.html">Objektdiagram</a></li>');
 document.write('<li><a href="Pakkediagram.html">Pakkediagram</a></li>');
-document.write('<li><a href="UseCase.html">Use Cases</a></li>');
+document.write('<li><a href="bruksmonsterdiagram.html">Brukmønsterdiagram</a></li>');
 document.write('<li><a href="Aktivitetsdiagram.html">Aktivitetsdiagram</a></li>');
 document.write('<li><a href="Kommunikasjonsdiagram.html">Kommunikasjonsdiagram</a></li>');
 document.write('<li><a href="Interaksjonsdiagram.html">Interaksjonsdiagram</a></li>');
