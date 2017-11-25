@@ -1,20 +1,13 @@
 <!doctype html>
 <html lang="no">
-
 <head>
     <meta charset="utf-8">
-    <title>SVG Animering</title>
+    <title>SVG Animering - objektdiagram</title>
     <meta name="description" content="Eksamen USN 2017">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        img {
-            width: auto;
-            height: auto;
-        }
-    </style>
 
 </head>
 
@@ -22,16 +15,15 @@
 
     <script src="js/navbar.js"></script>
     <main class="container">
-
-        <h1 class="heading">Diagrammer</h1>
-        <p>Her kommer våre diagrammer</p>
-
+            <button class="tibakeknapp" onclick="window.history.back();">Tilbake</button>
+        
         <article id="objektdiagram">
-            <h1>Objektdiagram</h1>
+            <h1 class="heading">Objektdiagram</h1>
             <section class="two-col">
 
-                <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
-                <a href="../dist/objectdiagram.svg">Aktivitetsdiagram</a>
+                  <p>Objektdiagrammer viser hvilke <a href="klassediagram.html">klasser</a> som er instansiert på ulike tidspunkt. Ett objektdiagram viser ett tidspunkt. Vi kan si at objektdiagram er et øyeblikksbilde av et kjørende system. (Viggo, s. 102)</p>
+                    
+                    <p>I vårt diagrammer ser du tilstanden til systemet ved last inn og lagre. Vi har valgt å vise dette med samme diagram og ved bruk av dummyfilen "test.svg", dette fordi tilstanden ikke fraviker stort ved disse to operasjonene. Hvis tilstanden hadde vært "lagre som" så ville eventuelt filnavnet bli endret.</p>
 
             </section>
             <br>

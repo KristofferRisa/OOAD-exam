@@ -171,6 +171,7 @@ footer a {
     -webkit-column-rule: 1px solid grey; /* Chrome, Safari, Opera */
     -moz-column-rule: 1px solid grey; /* Firefox */
     column-rule: 1px solid grey;
+    margin-bottom: 50px;
  }
 
 /*    Responsiv pluss leservennlig   */
@@ -180,13 +181,10 @@ footer a {
       -moz-columns: 2 200px;
       columns: 2 200px;    
       }
-   .wiki {
-       float: right;
-   }
  .container {
     padding: 40px;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
  }
 }
 
@@ -196,11 +194,10 @@ footer a {
       -moz-columns: 1 200px;
       columns: 1 200px;  
     }
-    
+/*     
     p,li,input,textarea {
         font-size: 1.4em;
     }
-    
     
     h1 {
         font-size: 2.2em;
@@ -211,7 +208,7 @@ footer a {
     }
     h3 {
         font-size: 1.8em;   
-    }
+    } */
     .container {
         padding: 40px;
         margin: 0 auto;
@@ -245,4 +242,17 @@ footer a {
 
 .hide {
     display: none;
+}
+.tibakeknapp {
+    position: absolute;
+    right: 100px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(112,207,245);
+    text-align: center;
+    letter-spacing: .5px;
+    height: 45px;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
 }
