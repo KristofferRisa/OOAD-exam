@@ -9,108 +9,48 @@
     <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/style.css">
-    
-<style>
-    img { width: auto; height: auto; } 
-</style>
+    <style>
+        img {
+            width: auto;
+            height: auto;
+        }
+    </style>
+
 </head>
 
 <body>
-    <nav id="nav" class="nav">
-        <ul>
 
-            <li>
-                <a href="./cssfaen.html">Hjem</a>
-            </li>
-            <li>
-                <a href="#">Diagrammer &#9662;</a>
-                <ul class="dropdown">
-                    <li>
-                        <a href="./ubuntu">Klassediagram</a>
-                    </li>
-                    <li>
-                        <a href="./debian">Objektdiagram</a>
-                    </li>
-                    <li>
-                        <a href="./mint">Pakkediagram</a>
-                    </li>
-                    <li>
-                        <a href="./arch">Use Cases</a>
-                    </li>
-                    <li>
-                        <a href="./tails">Aktivitetsdiagram</a>
-                    </li>
-                    <li>
-                        <a href="./red-hat">Kommunikasjonsdiagram</a>
-                    </li>
-                    <li>
-                        <a href="../elementary">Interaksjonsdiagram</a>
-                    </li>
-                    <li>
-                        <a href="">Sekvensdiagram</a>
-                    </li>
-                    <li>
-                        <a href="">Tidsdelingsdiagram</a>
-                    </li>
-                    <li>
-                        <a href="">Tilstandsdiagram</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="./#om">Gruppen</a>
-            </li>
-        </ul>
-    </nav>
-
+    <script src="js/navbar.js"></script>
     <main class="container">
-
-        <head class="header">
-            <h1>SVG-animering system</h1>
-            <hr>
-   
+        <h1 class="heading">Diagrammer</h1>
         <p>Her kommer våre diagrammer</p>
-    
-        
+
+        <article id="klassediagram">
+
             <h2>Klassediagram</h2>
-            <h3>SVG XML Kode</h3>
-            
-            <code id="code">
-                
-            </code>
-       
-            
-            <!-- <img src="../dist/Klassediagram.svg"> -->
-            <object type="text/plain" data="../dist/Klassediagram.svg"></object>
-            <pre></pre>
-            
-            
             <section class="two-col">
-                    <p>Følg link under for å se Use Case diagram for SVG-animering system.</p>
-                   <a href="../dist/Klassediagram.svg">Use case svg</a>
-                   
-                   <p>Vi har laget klassediagrammet fordi såånn og sågd askfsdafsdafsaf
-                       studietilbu
-                   </p>
-               </section>
-               <br>           
-              <br>        
-            
+                <p>Følg link under for å se Use Case diagram for SVG-animering system.</p>
+                <a href="../dist/Klassediagram.svg">Use case svg</a>
+                <p>
+                    Klassediagrammer viser klasser, interface, eller programmersgrensesnit, og hvordan de henger sammen. Denne strukturen er
+                    forutsetningen for at klassene kan samarbeide om bestemte oppgvaer i systemet. (Viggo, s. 101)
+                </p>
+                <p>
+                    GUI implementerer interfacet "IFilbehandler" for å ha mulighet til å for å få data fra objekter i klassen Disk når dataene
+                    er klare. Dette er av og til nødvendig i GUI-komponenter for å hindre at komponenter løser resten av
+                    brukerområdet og gir følelsen av å miste kontroll. (s.277 i boka)
+                </p>
+            </section>
+            <br>
+            <img src="../dist/klassediagram.svg">
+            <br>
+
+        </article>
+
 
     </main>
-    <footer>
-        <p>
-            |&nbsp;&nbsp;
-            <a href="http://www.hbv.no/studietilbud/bachelor-i-informasjonssystemer-og-it-ledelse/">Skoleprosjekt - Informasjonssystemer og IT-ledelse på Buskerud og Vestfold Høyskolen</a>&nbsp;&nbsp; |&nbsp;&nbsp;
-            <a href="https://www.hbv.no/">Besøk skolens hjemmeside</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a href="http://wedontknow.codes">Mer info om gruppen finnes her</a>&nbsp;&nbsp;|</p>
-        <p>|&nbsp;&nbsp;
-            <a href="mailto:post@wedontknow.codes">Sends oss en mail</a>&nbsp;&nbsp;|</p>
-    </footer>
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/footer.js"></script>
 </body>
 
 </html>
