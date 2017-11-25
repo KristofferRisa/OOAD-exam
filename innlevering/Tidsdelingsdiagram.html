@@ -30,12 +30,14 @@
             <h1>Tilstandsdiagram</h1>
             <section class="two-col">
 
-                <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
-                <a href="../dist/Tidsdelingsdiagram.svg">Aktivitetsdiagram</a>
+                <p>Diagrammet viser hvordan objektenes tilstand endres over tid og hvordan de påvirker hverandre. To objekter som skifter tilstand, kan være utsatt for begrensinger i forhold til rekkefølgen eller i forhold til hvor lang tid det bør gå mellom hvert skifte.
+                        
+                        I SVG animering så er det meste sekvensielt, men siden vi legger til rette for å addon og 3.parts integrasjon i form av å lese og skrive SVG filer blir det viktig å ha et slikt diagram for å vise eksterne hvordan det gjøres av våre interne objekter. Diagrammet er også hensiktsmessig å ha ved potensielle feilsøkings situasjoner eller ved utforming av ny funksjonalitet.
+                    </p>
 
             </section>
             <br>
-            <img src="../dist/Tidsdelingsdiagram.svg">
+            <img class="img-center" src="../dist/Tidsdelingsdiagram.svg">
         </article>
     </main>
 
