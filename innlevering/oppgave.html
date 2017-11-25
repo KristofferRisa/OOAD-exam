@@ -23,206 +23,129 @@
 
     <script src="js/navbar.js"></script>
     <main class="container">
-    <h1 class="heading">Om systemet</h1>
+        <h1 class="heading">Om systemet</h1>
 
         <h1 class="heading">Diagrammer</h1>
         <p>Her kommer våre diagrammer</p>
-        <div class="tree">
+        <div class="tree" id="diagram">
             <ul>
-    
-          <li>
-            <a href="#">Diagram</a>
-            <ul>
-              <li>
-                <a href="#">Struktur</a>
-                <ul>
-                  <li>
-                    <a href="#">Klasse</a>
-                  </li>
-                  <li>
-                    <a href="#">Objekt</a>
-                      </li>
-                      <li>
-                    <a href="#">Pakke</a>
-                  </li>
-                  <li>
-                        <a href="#">Komponent</a>
-                      </li>
-                      <li>
-                            <a href="#">Utplasserings</a>
-                          </li>
-                          <li>
-                                <a href="#">Sammensatt struktur</a>
-                              </li>
-                </ul>
-              </li>
-              
-              <li>
-                <a href="#">Atferds</a>
-                <ul>
-                  <li>
-                    <a href="#">Interaksjons</a>
+                <li>
+                    <span>Diagram</span>
                     <ul>
-                      <li>
-                        <a href="#">Sekvens</a>
-                      </li>
-                      <li>
-                        <a href="#">Kommunikasjons</a>
-                      </li>
-                      <li>
-                        <a href="#">Tidsdelings</a>
-                    </li>
-                    <li>
-                        <a href="#">Interaksjonsoversikt</a>
-                    </li>
+                        <li>
+                            <a href="#struktur?location=s" onclick="showStruktur();">Struktur</a>
+                        </li>
+
+                        <li>
+                            <a href="#atferds?location=a" onclick="showAtferds();">Atferds</a>
+
+                        </li>
                     </ul>
-                  </li><li>
-                    <a href="#">Bruksmønster</a>
-                  </li>
-                  <li>
-                        <a href="#">Aktivitets</a>
-                      </li>
-                      <li>
-                            <a href="#">Tilstand</a>
-                          </li>
-                </ul>
-              </li>
+                </li>
             </ul>
-          </li>
-        </ul>  
-        </div> 
+        </div>
 
-        <article id="klassediagram">
+        <div class="tree hide" id="struktur">
+            <ul>
+                <li>
+                    <a href="#" onclick="visOversikt();">Diagram</a>
+                    <ul>
+                        <li>
+                            <span>Struktur</span>
+                            <ul>
+                                <li>
+                                    <a href="klassediagram.html">Klassediagram</a>
+                                </li>
+                                <li>
+                                    <a href="#">Objekt</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pakke</a>
+                                </li>
+                                <li>
+                                    <a href="#">Komponent</a>
+                                </li>
+                                <li>
+                                    <a href="#">Utplasserings</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sammensatt struktur</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
 
-            <h2>Klassediagram</h2>
-            <section class="two-col">
-                <p>Følg link under for å se Use Case diagram for SVG-animering system.</p>
-                <a href="../dist/Klassediagram.svg">Use case svg</a>
-                <p>
-                        Klassediagrammer viser klasser, interface, eller programmersgrensesnit, og hvordan de henger sammen. Denne strukturen er forutsetningen for at klassene kan samarbeide om bestemte oppgvaer i systemet. (Viggo, s. 101)
-                    </p>
-                <p>
-                    GUI implementerer interfacet "IFilbehandler" for å ha mulighet til å for å få data fra objekter i klassen Disk når dataene er klare. Dette er av og til nødvendig i GUI-komponenter for å hindre at komponenter løser resten av brukerområdet og gir følelsen av å miste kontroll. (s.277 i boka)
-                </p>
-            </section>
-            <br>
-            <img src="../dist/klassediagram.svg">
-            <br>
+            </ul>
+            </li>
 
-        </article>
+        </div>
 
-        <article id="objektdiagram">
-            <h1>Objektdiagram</h1>
-            <section class="two-col">
+        <div class="tree hide" id="atferds">
+            <ul>
+                <li>
+                    <a href="#" onclick="visOversikt();">Diagram</a>
+                    <ul>
+                        <li>
+                            <span>Atferds</span>
+                            <ul>
+                                <li>
+                                    <a onclick="showInteraksjon();" href="#interaksjon?location=i">Interaksjons</a>
+                                </li>
+                                <li>
+                                    <a href="#">Bruksmønster</a>
+                                </li>
+                                <li>
+                                    <a href="#">Aktivitets</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tilstand</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
 
-                <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
-                <a href="../dist/objectdiagram.svg">Aktivitetsdiagram</a>
+        </div>
 
-            </section>
-            <br>
-            <img src="../dist/objectdiagram.svg">
-        </article>
+        <div class="tree hide" id="interaksjon">
+            <ul>
+                <li>
+                    <a href="#" onclick="visOversikt();">Diagram</a>
+                    <ul>
+                        <li>
+                            <a href="#" onclick="showAtferds();">Atferds</a>
 
-        <article id="pakkediagram">
-                <h1>Pakkediagram</h1>
-                <section class="two-col">
-    
-                    <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
-                    <a href="../dist/pakkediagram.svg">Aktivitetsdiagram</a>
-    
-                </section>
-                <br>
-                <img src="../dist/pakkediagram.svg">
-        </article>
-    
-        <article id="Tilstandsdiagram">
-                <h1>Tilstandsdiagram</h1>
-                <section class="two-col">
-    
-                    <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
-                    <a href="../dist/Tilstandsdiagram.svg">Aktivitetsdiagram</a>
-    
-                </section>
-                <br>
-                <img src="../dist/Tilstandsdiagram.svg">
-        </article>
+                            <ul>
+                                <li>
+                                    <span>Interaksjons</span>
+                                    <ul>
+                                        <li>
+                                            <a href="Sekvensdiagram.html">Sekvensdiagram</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Kommunikasjons</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Tidsdelings</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Interaksjonsoversikt</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
 
-        <article id="Tidsdelingsdiagram">
-                <h1>Tilstandsdiagram</h1>
-                <section class="two-col">
-    
-                    <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
-                    <a href="../dist/Tidsdelingsdiagram.svg">Aktivitetsdiagram</a>
-    
-                </section>
-                <br>
-                <img src="../dist/Tidsdelingsdiagram.svg">
-        </article>
+                    </ul>
+            </ul>
+            </li>
+        </div>
 
-        <article id="UseCase">
-                <h1>Tilstandsdiagram</h1>
-                <section class="two-col">
-    
-                    <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
-                    <a href="../dist/UseCase.svg">Aktivitetsdiagram</a>
-    
-                </section>
-                <br>
-                <img src="../dist/UseCase.svg">
-        </article>
-        
-        <article id="Sekvensdiagram">
-                <h1>Tilstandsdiagram</h1>
-                <section class="two-col">
-    
-                    <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
-                    <a href="../dist/Sekvensdiagram.svg">Aktivitetsdiagram</a>
-    
-                </section>
-                <br>
-                <img src="../dist/Sekvensdiagram.svg">
-        </article>
 
-        <article id="aktivitetsdiagram">
-            <h1>Aktivitetsdiagram</h1>
-            <section class="two-col">
+    </main>
+    <!-- <script src="js/footer.js"></script> -->
+    <script src="js/script.js"></script>
+</body>
 
-                <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
-                <a href="dist/svg_activitydiagram.svg">Aktivitetsdiagram</a>
-
-            </section>
-            <br>
-            <img src="../dist/Aktivitetsdiagram.svg">
-        </article>
-
-        <article id="Interaksjonsdiagram">
-                <h1>Aktivitetsdiagram</h1>
-                <section class="two-col">
-    
-                    <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
-                    <p>Interaksjonsoversikt viser aktiviteter og programflyt i en blanding av sekvensdiagram og aktivitetsdiagram.
-                            I våre diagrammer vises programflyten for aktivitetene "Åpne ny fil" og "Lagre Fil".</p>
-                    <a href="../dist/Interaksjonsdiagram.svg">Aktivitetsdiagram</a>
-    
-                </section>
-                <br>
-                <img src="../dist/Interaksjonsdiagram.svg">
-            </article>
-
-            <article id="Kommunikasjonsdiagram">
-                    <h1>Aktivitetsdiagram</h1>
-                    <section class="two-col">
-        
-                        <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
-                        <a href="../dist/Kommunikasjonsdiagram.svg">Aktivitetsdiagram</a>
-        
-                    </section>
-                    <br>
-                    <img src="../dist/Kommunikasjonsdiagram.svg">
-                </article>
-
-            </main>
-            
-                <script src="js/footer.js"></script>
-            </body>
-            </html>
+</html>
