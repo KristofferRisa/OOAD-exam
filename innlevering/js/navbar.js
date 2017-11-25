@@ -1,4 +1,4 @@
-document.write('<nav id="nav" class="nav"><ul><li><a href="index.html">Hjem</a></li>');
+document.write('<nav class="navheader" id="nav" class="nav"><ul><li><a href="index.html">Hjem</a></li>');
 document.write('<li><a href="Diagrammer.html">Diagrammer &#9662;</a><ul class="dropdown">');
 document.write('<li><a href="Klassediagram.html">Klassediagram</a></li>');
 document.write('<li><a href="Objektdiagram.html">Objektdiagram</a></li>');

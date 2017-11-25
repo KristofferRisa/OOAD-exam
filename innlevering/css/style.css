@@ -155,7 +155,8 @@ footer a {
 /* footer seksjon ferdig */
 
 .heading {
-    margin-top: 50px;   
+    margin-top: 10px; 
+    margin-bottom: 20px;  
 }
 
 .kontakt > input,textarea  {
@@ -168,13 +169,12 @@ footer a {
     -webkit-column-gap: 4em;
     -moz-column-gap: 4em;
     column-gap: 4em;  
-    -webkit-column-rule: 1px solid grey; /* Chrome, Safari, Opera */
-    -moz-column-rule: 1px solid grey; /* Firefox */
+    -webkit-column-rule: 1px solid grey; 
+    -moz-column-rule: 1px solid grey; 
     column-rule: 1px solid grey;
     margin-bottom: 50px;
  }
 
-/*    Responsiv pluss leservennlig   */
 @media screen and (min-width:1200px){
   .two-col {
       -webkit-columns: 2 200px;
@@ -184,7 +184,7 @@ footer a {
  .container {
     padding: 40px;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
  }
 }
 
@@ -194,25 +194,11 @@ footer a {
       -moz-columns: 1 200px;
       columns: 1 200px;  
     }
-/*     
-    p,li,input,textarea {
-        font-size: 1.4em;
-    }
-    
-    h1 {
-        font-size: 2.2em;
-    }
-    
-    h2 {
-        font-size: 2em;
-    }
-    h3 {
-        font-size: 1.8em;   
-    } */
+
     .container {
         padding: 40px;
         margin: 0 auto;
-        width: 70%;
+        width: 90%;
     }
 }
 /* tilpasset mobil  */
@@ -240,6 +226,10 @@ footer a {
     margin-right: auto;
 }
 
+.img-large {
+    width: 300px;
+}
+
 .hide {
     display: none;
     opacity: 0;
@@ -264,3 +254,5 @@ footer a {
 .tibakeknapp:hover {
     color: #fff;
 }
+
+
