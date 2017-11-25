@@ -242,12 +242,16 @@ footer a {
 
 .hide {
     display: none;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
 }
+
 .tibakeknapp {
     position: absolute;
-    right: 100px;
+    left: 100px;
+    top: 15px;
     text-decoration: none;
-    color: #fff;
+    color: black;
     background-color: rgb(112,207,245);
     text-align: center;
     letter-spacing: .5px;
@@ -255,4 +259,8 @@ footer a {
     -webkit-transition: .2s ease-out;
     transition: .2s ease-out;
     cursor: pointer;
+}
+
+.tibakeknapp:hover {
+    color: #fff;
 }
