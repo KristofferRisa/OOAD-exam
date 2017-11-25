@@ -24,7 +24,7 @@ img {
 }
 
 .logo {
-    background: gray;
+    background: rgb(112,207,245);
 }
 
 /*
@@ -57,7 +57,7 @@ ul {
     Start NAV
 */
 nav {
-    background: gray;
+    background: rgb(112,207,245);
     text-align: center;
     -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
     -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
@@ -73,7 +73,7 @@ nav ul {
     display: inline-block;
     padding: 0;
     list-style: none;
-    background: gray;
+    background: rgb(112,207,245);
     text-align: center;
 }
 
@@ -91,13 +91,13 @@ nav ul li a {
 }
 
 a:hover {
-    color: #70B955;
-    background: gray;
+    color: white;
+    background: rgb(112,207,245);
 }
 
 nav ul li ul.dropdown {
     min-width: 206px;
-    background: gray;
+    background: rgb(112,207,245);
     display: none;
     position: absolute;
     z-index: 999;
@@ -128,8 +128,8 @@ nav ul li ul.dropdown li {
 
 /*  Footer seksjon  */
 footer {
-    background-color: black;
-    color: aliceblue;
+    background-color: rgb(112,207,245);
+    color: #3B3B3E;
     opacity: 0.7;
     padding: 30px;
     -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
@@ -149,7 +149,7 @@ footer p {
 }
 
 footer a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 /* footer seksjon ferdig */
@@ -225,4 +225,14 @@ footer a {
         margin: 0 auto;
         width: 80%;
     }
+}
+
+.oppgave {
+    border-radius: 25px;
+    background: rgb(112,207,245);
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+    margin: auto;
+    text-align: center;
 }

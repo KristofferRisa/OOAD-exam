@@ -1,0 +1,13 @@
+document.write('<nav id="nav" class="nav"><ul><li><a href="index.html">Hjem</a></li>');
+document.write('<li><a href="oppgave.html#Diagrammer">Diagrammer &#9662;</a><ul class="dropdown">');
+document.write('<li><a href="oppgave.html#Klassediagram">Klassediagram</a></li>');
+document.write('<li><a href="oppgave.html#Objektdiagram">Objektdiagram</a></li>');
+document.write('<li><a href="oppgave.html#Pakkediagram">Pakkediagram</a></li>');
+document.write('<li><a href="oppgave.html#UseCase">Use Cases</a></li>');
+document.write('<li><a href="oppgave.html#Aktivitetsdiagram">Aktivitetsdiagram</a></li>');
+document.write('<li><a href="oppgave.html#Kommunikasjonsdiagram">Kommunikasjonsdiagram</a></li>');
+document.write('<li><a href="oppgave.html#Interaksjonsdiagram">Interaksjonsdiagram</a></li>');
+document.write('<li><a href="oppgave.html#Sekvensdiagram">Sekvensdiagram</a></li>');
+document.write('<li><a href="oppgave.html#Tidsdelingsdiagram">Tidsdelingsdiagram</a></li>');
+document.write('<li><a href="oppgave.html#Tilstandsdiagram">Tilstandsdiagram</a></li>');
+document.write('</ul></li><li><a href="index.html#om">Gruppen</a></li></ul></nav>');
