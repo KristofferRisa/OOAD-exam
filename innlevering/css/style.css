@@ -91,8 +91,8 @@ nav ul li a {
 }
 
 a:hover {
-    color: #70B955;
-    background: gray;
+    color: white;
+    background: rgb(112,207,245);
 }
 
 nav ul li ul.dropdown {
@@ -128,8 +128,8 @@ nav ul li ul.dropdown li {
 
 /*  Footer seksjon  */
 footer {
-    background-color: black;
-    color: aliceblue;
+    background-color: rgb(112,207,245);
+    color: #3B3B3E;
     opacity: 0.7;
     padding: 30px;
     -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
@@ -149,7 +149,7 @@ footer p {
 }
 
 footer a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 /* footer seksjon ferdig */
