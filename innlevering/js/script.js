@@ -92,7 +92,7 @@ function createUmlTree() {
             <a href="?loaction=d" onclick="visOversikt();">Diagram</a>
             <ul>
                 <li>
-                    <span class="active">Struktur</span>
+                    <span >Struktur</span>
                     <ul>
                         <li>
                             <a id="klasse" href="klassediagram.html?location=s&active=klasse">Klasse</a>
