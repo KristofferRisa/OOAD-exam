@@ -21,26 +21,42 @@
 <body>
 
     <script src="js/navbar.js"></script>
-    <main class="container">
-            <button onclick="window.history.back();">Tilbake</button>
-        <h1 class="heading">Diagrammer</h1>
-        <p>Her kommer våre diagrammer</p>
-        
-        <article id="sekvensdiagram">
-            <h1>Aktivitetsdiagram</h1>
-            <section class="two-col">
+    <button onclick="window.history.back();">
+        <-- </button>
+            <main class="container">
+                <article id="sekvensdiagram">
 
-                <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
-                <a href="dist/svg_activitydiagram.svg">Aktivitetsdiagram</a>
+                    <h1>Sekvensdiagram</h1>
+                    <section class="two-col">
 
-            </section>
-            <br>
-            <img src="../dist/Aktivitetsdiagram.svg">
-        </article>
-
-   
+                        <p>
+                            Det er totalt 4 interaksjonsdiagrammer i UML 2.0, sekvensdiagram er et av dem. 
+                            Dette diagrammet står nært et annet viktig interaksjonsdiagram: <a href="../innlevering/kommunikasjonsdiagram.html">kommunikasjonsdiagram</a>
+                            Disse diagrammene er isomorfe, som betyr at innholdet i det ene diagrammet kan vises i det andre. 
+                            Selv om disse diagrammene viser den samme informasjonen, har de som oppgave å gi forskjellig forståelse av 
+                            samarbeidet som blir analysert (Holmstedt, 2015).
+                        </p>
+                        <p>
+                            Et sekvensdiagram blir ofte brukt i designfasen, for å knytte et brukstilfelle til en konkret gruppe med 
+                            objekter og vise hvordan de samarbeider (Holmstedt. 2015). I vårt tilfelle har vi en bruker som skal 
+                            utføre et par oppgaver ved hjelp av vårt SVG-redigeringsprogram. Sekvensdiagrammet gir mest verdi når 
+                            samarbeidet begynner å komplisert. Det vi mener er at hvis en programmerer begynner å miste oversikten, 
+                            eller sliter med å finne logiske feil kan man vende tilbake til sekvensdiagrammet. Dette gjøres fordi 
+                            det kan være lettere å sette lys på spesifikke programmeringsproblemer eller oppdage glemte detaljer ved 
+                            hjelp av en modell. (Holmstedt, 2015, s. 213)
+                        </p>
+                        <p>Vårt brukstilfelle er ikke veldig komplisert, men vi valgte fortsatt å ta med både sekvens- og kommunikasjonsdiagrammene 
+                            for å hjelpe programmererne, og skape en bedre forståelse. 
+                            I tillegg er sekvensdiagrammet svært nærme den utførbare koden, så det å ha et godt diagram når man 
+                            skal skrive kode kan bidra til å skape god kvalitet på programkoden (Holmstedt, 2015, s. 213)
+                        </p>
+                    </section>
+                    <br>
+                    <img src="../dist/sekvensdiagram.svg">
+                </article>
             </main>
-            
-                <script src="js/footer.js"></script>
-            </body>
-            </html>
+
+     <script src="js/footer.js"></script>
+</body>
+
+</html>
