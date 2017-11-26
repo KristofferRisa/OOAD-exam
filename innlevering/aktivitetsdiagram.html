@@ -6,47 +6,54 @@
     <title>SVG Animering</title>
     <meta name="description" content="Eksamen USN 2017">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
     <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        img {
-            width: auto;
-            height: auto;
-        }
-    </style>
-
 </head>
 
 <body>
 
     <script src="js/navbar.js"></script>
-    <button onclick="window.history.back();"> <-- </button>
+    <button class="tilbakeknapp" onclick="window.history.back();">Tilbake</button>
+    <div id="tree"></div>
     <main class="container">
         <article id="aktivitetsdiagram">
 
             <h1>Aktivitetsdiagram</h1>
             <section class="two-col">
-        
+
                 <p>
-                    Aktivitetsdiagram ber en av sjuk diagramtyper som viser de dynamiske sidene (Holmstedt, 2015, s. 126). 
-                    Diagrammet kan brukes til å beskrive logikken i systemet, altså hvilken rekkefølge en bruker eller et 
-                    objekt må utføre aktiviteter i for å gjennomføre en bestemt prosess (Holmstedt, 2015, s. 105). 
+                    Aktivitetsdiagram ber en av sjuk diagramtyper som viser de dynamiske sidene (Holmstedt, 2015, s. 126). Diagrammet kan brukes
+                    til å beskrive logikken i systemet, altså hvilken rekkefølge en bruker eller et objekt må utføre aktiviteter
+                    i for å gjennomføre en bestemt prosess (Holmstedt, 2015, s. 105).
                 </p>
                 <p>
-                    Det var naturlig for å oss å inkludere aktivitetsdiagram da vi også har <a href="../innlevering/bruksmonsterdiagram.html">bruksmønsterdiagram</a>, 
-                    som er svært sentral i RUP (Holmstedt 2015, s. 111). 
-                    Ofte er det et brukstilfelle i et bruksmønsterdiagram som er utgangspunktet for aktivitetsdiagrammet (Holmstedt, 2015, s. 105). 
-                    Vi har valgt å ha et aktivitetsdiagram for hele systemet, da det er alle aktivitetene sammen som vil gi oss  størst forståelse av systemet, i dette tilfelle. 
-                    Aktivitetsdiagrammet sammen med bruksmønsterdiagrammet gir oss et godt bilde av hvordan systemet kan utnyttes, samt funksjonene og tjenestene som kan finnes her. 
+                    Det var naturlig for å oss å inkludere aktivitetsdiagram da vi også har
+                    <a href="../innlevering/bruksmonsterdiagram.html">bruksmønsterdiagram</a>, som er svært sentral i RUP (Holmstedt 2015, s. 111). Ofte er det et brukstilfelle
+                    i et bruksmønsterdiagram som er utgangspunktet for aktivitetsdiagrammet (Holmstedt, 2015, s. 105). Vi
+                    har valgt å ha et aktivitetsdiagram for hele systemet, da det er alle aktivitetene sammen som vil gi
+                    oss størst forståelse av systemet, i dette tilfelle. Aktivitetsdiagrammet sammen med bruksmønsterdiagrammet
+                    gir oss et godt bilde av hvordan systemet kan utnyttes, samt funksjonene og tjenestene som kan finnes
+                    her.
                 </p>
             </section>
             <br>
-            <img src="../dist/aktivitetsdiagram.svg">
+            <figure class="text-center">
+                <img src="img/aktivitetsdiagram.svg" alt="Bilde av aktivitsdiagram.">
+                <figcaption>figur 8 - aktivitetsdiagram</figcaption>
+            </figure>
         </article>
+        <footer class="footer">
+            <strong>Laget av:</strong>
+            7103, 7139, 7104 og 7141
+        </footer>
+
     </main>
 
-    <script src="js/footer.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
