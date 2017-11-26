@@ -228,9 +228,10 @@ p a {
 
 .active {
     background: rgb(112,207,245);
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-decoration-color: white;
 }
+
 
 .not-active {
     background: lightcoral;
