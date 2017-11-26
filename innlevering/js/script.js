@@ -107,15 +107,15 @@ function createUmlTree() {
                         </li>
                         <li>
                             <a id="komponent" class="tooltip" href="#">Komponent
-                            <span class="tooltiptext">Finnes ikke</span></a>
+                            <span class="tooltiptext">Ikke inkludert</span></a>
                         </li>
                         <li>
                             <a id="utplassering" class="tooltip" href="#">Utplasserings
-                            <span class="tooltiptext">Finnes ikke</span></a>
+                            <span class="tooltiptext">Ikke inkludert</span></a>
                         </li>
                         <li>
                             <a id="sammesatt" class="tooltip" href="#">Sammensatt struktur
-                            <span class="tooltiptext">Finnes ikke</span></a>
+                            <span class="tooltiptext">Ikke inkludert</span></a>
                         </li>
                     </ul>
                 </li>
@@ -176,7 +176,7 @@ function createUmlTree() {
                                 </li>
                                 <li>
                                 <a id="Interaksjonsoversikt" class="tooltip" href="#">Interaksjonsoversikt
-                                <span class="tooltiptext">Finnes ikke</span></a>
+                                <span class="tooltiptext">Ikke inkludert</span></a>
                             </li>
 
                             </ul>
