@@ -43,13 +43,13 @@
                 <p>DesignView, XmlView og ForhåndsvisningsView er alle spesialiseringer av MainView med hvert sitt ansvarsområde. 
                     Disse ansvarsområdene er å vise "kodemodus", "desigmodus" og forhåndsvisning modus.</p>
                 <p>SvgCore er en
-                    <a href="pakkediagram.html?location=s&active=pakke">pakke</a> som inneholder domene eller forretningslogikk. En slik pakkeinndeling omdales som domene laget
-                    og inneholder klassene SvgAnimering og interfacet IFilbehandler. Pakken inneholder også klasse Vedlikehold som
-                    har ansvar for å håndtere vedlikehold av programmet, som oppdateringer og feilmeldinger med mer.</p>
+                    <a href="pakkediagram.html?location=s&active=pakke">pakke</a> som inneholder domene eller forretningslogikk. En slik pakkeinndeling omdales som domene laget. Pakken inneholder klassene SvgAnimering og Vedlikehold samt interfacet IFilbehandler.
+                    SvgAnimering er klassen som har primær logikken for håndteringen av Svg Animeringen som også kan omtales som forretningslogikken. 
+                    Vedlikehold klassen har ansvar for å håndtere vedlikehold av programmet, som oppdateringer og feilmeldinger med mer.</p>
                 <p>SvgAddon er en
                     <a href="pakkediagram.html?location=s&active=pakke">pakke</a> som inneholder klasser som håndterer det tekniske laget.
                     Det tekniske laget har ansvar for å skrive og lesing data og annet som er av en slik teknisk art. </p>
-                    <p>I SvgAddon pakken er det klasser som har implementerer interfacet ISvgDataBehandler slik at klassene kan kommunisere med brukergrensesnitt. En slik arkitektur gjør det mulig å gjøre endringer i det tekniske laget uten at man ødelegger implementasjonen i det grafiske brukergrensesnittet. For eksempel kan man enkelt bytte ut det tekniske laget fra å skrive og lese data mellom disk til å lese og skrive data til et FTP område istedenfor. Dette kan gjøres at man er avhengig av å endringer i MainView for å håndtere dataene. Dette kan omtales som en plug-in arkitektur, derav også navnen SvgAddon fordi man kan enkelt utvide med flere.  </p>
+                    <p>I SvgAddon pakken er det klasser som har implementerer interfacet ISvgDataBehandler slik at klassene kan kommunisere med brukergrensesnitt. En slik arkitektur gjør det mulig å gjøre endringer i det tekniske laget uten at man ødelegger implementasjonen i det grafiske brukergrensesnittet. For eksempel kan man enkelt bytte ut det tekniske laget fra å skrive og lese data mellom disk til å skrive og lese data til f.eks. et FTP område istedenfor uten at man er avhengig av å endringer i MainView for å håndtere dataene. Dette kan omtales som en plug-in arkitektur, derav også navnet SvgAddon fordi man kan enkelt utvide med flere.  </p>
                 </p>
             </section>
             <br>
