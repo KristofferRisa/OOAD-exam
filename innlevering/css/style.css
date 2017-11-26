@@ -178,6 +178,12 @@ a:hover {
 .oppgave p,a{
     color: black;
     text-decoration-color: black;
+    text-decoration: underline;
+    
+}
+
+p a {
+    font-style: italic;
 }
 
 .oppgave img {
