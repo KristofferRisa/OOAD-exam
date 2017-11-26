@@ -47,18 +47,25 @@ ul {
     font-family: 'Cutive Mono', cursive;
 }
 
+.mockup {
+    height: 450px;
+    width: auto;
+}
+
 .logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*
-    Start NAV
-*/
+.text-center {
+    text-align: center;
+}
+
 nav {
     background: rgb(112,207,245);
-    text-align: center;
+    text-align: right;
+    padding-right: 20px;
     -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
     -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
     box-shadow: 0 1px 3px rgba(0,0,0,0.4);
@@ -66,7 +73,6 @@ nav {
 
 nav ul {
     display: inline-block;
-    margin-bottom: 25px;
 }
 
 nav ul {
@@ -96,7 +102,8 @@ a:hover {
 }
 
 nav ul li ul.dropdown {
-    min-width: 206px;
+    
+    
     background: rgb(112,207,245);
     display: none;
     position: absolute;
@@ -122,40 +129,13 @@ nav ul li ul.dropdown li {
 }
 
 .navbar-fixed ~ .container{
-  margin-top: 78px;
+  margin-top: 70px;
 }
 /* Nav seksjon ferdig */
 
-/*  Footer seksjon  */
-footer {
-    background-color: rgb(112,207,245);
-    color: #3B3B3E;
-    opacity: 0.7;
-    padding: 30px;
-    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
-    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
-}
-
-footer p {
-    margin: auto;
-    width: 70%;
-    padding: 2px;
-    text-align: center;
-    color: #3B3B3E;
-    font-size: 90%;
-    text-align: center;
-    font-family: 'Economica', sans-serif;
-}
-
-footer a {
-    color: black;
-    text-decoration: none;
-}
-/* footer seksjon ferdig */
-
 .heading {
-    margin-top: 50px;   
+    margin-top: 10px; 
+    margin-bottom: 20px;  
 }
 
 .kontakt > input,textarea  {
@@ -168,13 +148,12 @@ footer a {
     -webkit-column-gap: 4em;
     -moz-column-gap: 4em;
     column-gap: 4em;  
-    -webkit-column-rule: 1px solid grey; /* Chrome, Safari, Opera */
-    -moz-column-rule: 1px solid grey; /* Firefox */
+    -webkit-column-rule: 1px solid grey; 
+    -moz-column-rule: 1px solid grey; 
     column-rule: 1px solid grey;
     margin-bottom: 50px;
  }
 
-/*    Responsiv pluss leservennlig   */
 @media screen and (min-width:1200px){
   .two-col {
       -webkit-columns: 2 200px;
@@ -182,9 +161,9 @@ footer a {
       columns: 2 200px;    
       }
  .container {
-    padding: 40px;
+    padding: 10px;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
  }
 }
 
@@ -194,31 +173,17 @@ footer a {
       -moz-columns: 1 200px;
       columns: 1 200px;  
     }
-/*     
-    p,li,input,textarea {
-        font-size: 1.4em;
-    }
-    
-    h1 {
-        font-size: 2.2em;
-    }
-    
-    h2 {
-        font-size: 2em;
-    }
-    h3 {
-        font-size: 1.8em;   
-    } */
+
     .container {
-        padding: 40px;
+        padding: 20px;
         margin: 0 auto;
-        width: 70%;
+        width: 90%;
     }
 }
 /* tilpasset mobil  */
 @media screen and (max-width: 600px) {
     .container {
-        padding: 40px;
+        padding: 20px;
         margin: 0 auto;
         width: 80%;
     }
@@ -240,13 +205,17 @@ footer a {
     margin-right: auto;
 }
 
+.img-large {
+    width: 300px;
+}
+
 .hide {
     display: none;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s linear;
 }
 
-.tibakeknapp {
+.tilbakeknapp {
     position: absolute;
     left: 100px;
     top: 15px;
@@ -264,3 +233,119 @@ footer a {
 .tibakeknapp:hover {
     color: #fff;
 }
+
+.active {
+    background: rgb(112,207,245);
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+ /* UML Diagram tree */
+ .tree {
+    -webkit-transform-origin: 50%;
+            transform-origin: 50%;    
+    margin: auto;
+  }
+  
+  .tree ul {
+    position: relative;
+    padding: 1em 0;
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .tree ul::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .tree li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 1em .5em 0 .5em;
+  }
+  .tree li::before, .tree li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    border-top: 1px solid #ccc;
+    width: 50%;
+    height: 1em;
+  }
+  .tree li::after {
+    right: auto;
+    left: 50%;
+    border-left: 1px solid #ccc;
+  }
+  .tree li:only-child::after, .tree li:only-child::before {
+    display: none;
+  }
+  .tree li:only-child {
+    padding-top: 0;
+  }
+  .tree li:first-child::before, .tree li:last-child::after {
+    border: 0 none;
+  }
+  .tree li:last-child::before {
+    border-right: 1px solid #ccc;
+    border-radius: 0 5px 0 0;
+  }
+  .tree li:first-child::after {
+    border-radius: 5px 0 0 0;
+  }
+  
+  .tree ul ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 1px solid #ccc;
+    width: 0;
+    height: 1em;
+  }
+  
+  .tree li a,span {
+    border: 1px solid #ccc;
+    padding: .5em .75em;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    color: #333;
+    position: relative;
+    top: 1px;
+  }
+  
+  .tree li a:hover + ul li::after,
+  .tree li a:hover + ul li::before,
+  .tree li a:hover + ul::before,
+  .tree li a:hover + ul ul::before {
+    border-color:rgb(112,207,245);
+  }
+
+.tree li a {
+    max-width: 100%;
+    
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .tree li a:hover{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  .hovedtype {
+    background: rgb(112,207,245);
+  }
+
+  .tree {
+    width: 100%;
+  }
+ /* UML Diagram tree  ferdig */
+

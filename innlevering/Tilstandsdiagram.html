@@ -21,26 +21,40 @@
 <body>
 
     <script src="js/navbar.js"></script>
+    <button class="tilbakeknapp" onclick="window.history.back();">Tilbake</button>
+    <div id="tree"></div>
     <main class="container">
+        <article id="tilstandsdiagram">
 
-        <h1 class="heading">Diagrammer</h1>
-        <p>Her kommer våre diagrammer</p>
-
-
-        <article id="Tilstandsdiagram">
-            <h1>Tilstandsdiagram</h1>
+            <h1>Tilstandsdiagam</h1>
             <section class="two-col">
-
-                <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
-                <a href="../dist/Tilstandsdiagram.svg">Aktivitetsdiagram</a>
-
+        
+                <p>
+                    Tilstandsdiagram vise et objekts liv, deler av livet eller hele objektets livshistorie, 
+                    samt hva som må til for at objektene endrer tilstand en til en annen. 
+                    Dette er typisk for GUI styrte programmer (Holmstedt, 2015 s. 178).
+                </p>
+                <p>        
+                        Vi har laget en tilstandsmaskin ved hjelp av et tilstandsdiagram. 
+                        Det vi ønsker å vise er de forskjellige tilstandene systemet vårt innebærer. 
+                        Diagrammet viser til en hver tid hvilke tilstand systemet befinner seg i, og 
+                        hva som må til for å endre denne tilstanden, og hvilken tilstand objektet går over til (Holmstedt, 2015, s. 178).
+                </p>
+                <p>
+                    Programmet startet i tilstanden "av", for at denne tilstanden skal endres må en brukes 
+                    starte programmet. Dette fører til en tilstand hvor programmet automatisk søker etter 
+                    oppdateringer og laster disse ned hvis det ikke er noen feil. Programmet ender opp i en 
+                    tilstand hvor det "venter på input fra bruker". Her kan brukeren laste inn en SVG fil, 
+                    som gjør at programmet går inn selve SVG redigerings verktøyet. Videre tilstander vises i 
+                    diagrammet under.
+                </p>
             </section>
             <br>
-            <img src="../dist/Tilstandsdiagram.svg">
+            <img src="../dist/tilstandsdiagram.svg">
         </article>
     </main>
 
-    <script src="js/footer.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
