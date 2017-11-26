@@ -232,6 +232,12 @@ p a {
     text-decoration-color: white;
 }
 
+.not-active {
+    background: lightcoral;
+}
+.not-active:hover {
+    background: lightcoral;
+}
  /* UML Diagram tree */
  .tree {
     -webkit-transform-origin: 50%;
