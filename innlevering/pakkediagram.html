@@ -31,9 +31,12 @@
                 </p>
                 <p>
                     I vårt pakkediagram viser vi forholdene til de 3 pakke som er blitt laget for å understøtte bassis funksjonalitet og GUI
-                    komponenter i SVG animeringsprogrammet. Pakkediagrammet støtter også en 3-lags arkitektur ved med GUI
-                    på toppen og domene/forretningslag i CORE og til slutte finnes det tekniske laget i ADDON klassen. **
-                    Det ligger også noe teknisk lag i CORE.
+                    komponenter i SVG animeringsprogrammet. Pakkediagrammet støtter en 3-lags arkitektur hvor GUI elementer finnes i SvgUI som er det øverste laget.
+                    Under GUI finnes domene/forretningslag som finnes i SvgCore pakken i vårt system. Til slutte finnes det tekniske laget som er plassert i SvgAddon pakken. 
+                </p>
+                <p>
+                    Vi valgt å lage et pakkediagram fordi selv om det er et enkelt og lite diagram kan det være med å gi et oversiktsbilde i f.eks. 
+                    en implementasjonsfase eller i ulike drift scenarioer, som under utrulling eller i ulike support situasjoner en gang i fremtiden. 
                 </p>
             </section>
             <br>
