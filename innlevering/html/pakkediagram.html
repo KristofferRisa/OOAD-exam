@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="no">
+
+<head>
+    <meta charset="utf-8">
+    <title>SVG Animering</title>
+    <meta name="description" content="Eksamen USN 2017">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon-96x96.png">
+    <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <script src="../js/navbar.js"></script>
+    <button class="tilbakeknapp" onclick="window.history.back();">Tilbake </button>
+    <div id="tree"></div>
+    <main class="container">
+        <article id="pakkediagram">
+
+            <h1>Pakkediagram</h1>
+            <section class="two-col">
+
+                <p>
+                    Et pakkediagram samler flere ting under et felles navn. Pakkediagrammer viser flere pakker og forbindelser mellom dem (Holmstedt,
+                    2015, s. 108-109). Fowler (2004) skriver blant annet at pakker tilsvarer pakker i Java og navneområder
+                    i C++ og .NET.
+                </p>
+                <p>
+                    I vårt pakkediagram viser vi forholdene til de tre pakkene som er blitt laget for å understøtte bassis funksjonalitet og
+                    GUI komponenter i SVG-animeringssystemet. Pakkediagrammet støtter en 3-lags arkitektur hvor GUI elementer
+                    finnes i SvgUI som er det øverste laget. Under GUI finnes domene/forretningslag som finnes i SvgCore
+                    pakken i vårt system. Til slutte finnes det tekniske laget som er plassert i SvgAddon pakken.
+                </p>
+                <p>
+                    Vi valgt å lage et pakkediagram fordi selv om det er et enkelt og lite diagram kan det være med å gi et oversiktsbilde i
+                    f.eks. en implementasjonsfase eller i ulike drift scenarioer, som under utrulling eller i ulike support
+                    situasjoner en gang i fremtiden.
+                </p>
+            </section>
+            <br>
+            <figure class="text-center">
+                <a href="../img/pakkediagram.svg">
+                    <img src="../img/pakkediagram.svg" alt="Bilde av pakkediagrammet.">
+                </a>
+                <figcaption>figure 3 - pakkediagram</figcaption>
+            </figure>
+        </article>
+        <footer class="footer">
+            <strong>Medlemmer:</strong>
+            7103, 7139, 7104 og 7141
+        </footer>
+
+    </main>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
