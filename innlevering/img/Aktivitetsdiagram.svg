@@ -33,25 +33,25 @@
       ><path d="M-7 -7 L31 -7 L31 31 L-7 31 L-7 -7 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath10"
-      ><path d="M-87 -14 L174 -14 L174 28 L-87 28 L-87 -14 Z"
+      ><path d="M-86 -14 L172 -14 L172 28 L-86 28 L-86 -14 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath11"
-      ><path d="M-127 -14 L254 -14 L254 28 L-127 28 L-127 -14 Z"
-      /></clipPath
-      ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath12"
       ><path d="M-143 -14 L286 -14 L286 28 L-143 28 L-143 -14 Z"
       /></clipPath
-      ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath13"
-      ><path d="M-95 -14 L190 -14 L190 28 L-95 28 L-95 -14 Z"
-      /></clipPath
-      ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath14"
-      ><path d="M-166 -14 L332 -14 L332 28 L-166 28 L-166 -14 Z"
-      /></clipPath
-      ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath15"
+      ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath12"
       ><path d="M-185 -14 L370 -14 L370 28 L-185 28 L-185 -14 Z"
       /></clipPath
+      ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath13"
+      ><path d="M-166 -14 L332 -14 L332 28 L-166 28 L-166 -14 Z"
+      /></clipPath
+      ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath14"
+      ><path d="M-95 -14 L190 -14 L190 28 L-95 28 L-95 -14 Z"
+      /></clipPath
+      ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath15"
+      ><path d="M-127 -14 L254 -14 L254 28 L-127 28 L-127 -14 Z"
+      /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath16"
-      ><path d="M-86 -14 L172 -14 L172 28 L-86 28 L-86 -14 Z"
+      ><path d="M-87 -14 L174 -14 L174 28 L-87 28 L-87 -14 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath17"
       ><path d="M0 0 L104 0 L104 143 L0 143 L0 0 Z"
@@ -250,37 +250,37 @@
     ><circle r="6.6667" clip-path="url(#clipPath9)" cx="10" cy="10" stroke="none"
       /><circle stroke-linecap="butt" clip-path="url(#clipPath9)" fill="none" stroke-linejoin="round" r="10" cx="10" cy="10" stroke-miterlimit="0"
     /></g
-    ><g font-size="11" transform="translate(123,1097)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
-    ><text x="10" xml:space="preserve" y="11" clip-path="url(#clipPath10)" stroke="none"
-      >Lukk system</text
-    ></g
-    ><g font-size="11" transform="translate(170,918)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
-    ><text x="9" xml:space="preserve" y="11" clip-path="url(#clipPath11)" stroke="none"
-      >[Ønsker du å lagre?]</text
-    ></g
-    ><g font-size="11" transform="translate(169,826)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
-    ><text x="9" xml:space="preserve" y="11" clip-path="url(#clipPath12)" stroke="none"
-      >[Finnes det endringer?]</text
-    ></g
-    ><g font-size="11" transform="translate(170,760)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
-    ><text x="9" xml:space="preserve" y="11" clip-path="url(#clipPath13)" stroke="none"
-      >[Er du ferdig?]</text
-    ></g
-    ><g font-size="11" transform="translate(169,575)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
-    ><text x="9" xml:space="preserve" y="11" clip-path="url(#clipPath14)" stroke="none"
-      >[Ønsker å gjøre endringer?]</text
-    ></g
-    ><g font-size="11" transform="translate(177,377)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
-    ><text x="10" xml:space="preserve" y="11" clip-path="url(#clipPath15)" stroke="none"
-      >[Ønsker å spille av animasjon?]</text
-    ></g
     ><g font-size="11" transform="translate(124,0)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
-    ><text x="10" xml:space="preserve" y="11" clip-path="url(#clipPath16)" stroke="none"
+    ><text x="10" xml:space="preserve" y="11" clip-path="url(#clipPath10)" stroke="none"
       >Start system</text
     ></g
     ><g font-size="11" transform="translate(167,192)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
-    ><text x="10" xml:space="preserve" y="11" clip-path="url(#clipPath12)" stroke="none"
+    ><text x="10" xml:space="preserve" y="11" clip-path="url(#clipPath11)" stroke="none"
       >[Er filen i SVG-format?]</text
+    ></g
+    ><g font-size="11" transform="translate(177,377)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
+    ><text x="10" xml:space="preserve" y="11" clip-path="url(#clipPath12)" stroke="none"
+      >[Ønsker å spille av animasjon?]</text
+    ></g
+    ><g font-size="11" transform="translate(169,575)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
+    ><text x="9" xml:space="preserve" y="11" clip-path="url(#clipPath13)" stroke="none"
+      >[Ønsker å gjøre endringer?]</text
+    ></g
+    ><g font-size="11" transform="translate(170,760)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
+    ><text x="9" xml:space="preserve" y="11" clip-path="url(#clipPath14)" stroke="none"
+      >[Er du ferdig?]</text
+    ></g
+    ><g font-size="11" transform="translate(169,826)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
+    ><text x="9" xml:space="preserve" y="11" clip-path="url(#clipPath11)" stroke="none"
+      >[Finnes det endringer?]</text
+    ></g
+    ><g font-size="11" transform="translate(170,918)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
+    ><text x="9" xml:space="preserve" y="11" clip-path="url(#clipPath15)" stroke="none"
+      >[Ønsker du å lagre?]</text
+    ></g
+    ><g font-size="11" transform="translate(123,1097)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
+    ><text x="10" xml:space="preserve" y="11" clip-path="url(#clipPath16)" stroke="none"
+      >Lukk system</text
     ></g
     ><g stroke-linecap="butt" font-size="11" transform="translate(117,-17)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1"
     ><line y2="89" fill="none" x1="50" clip-path="url(#clipPath18)" x2="50" y1="50"
@@ -416,12 +416,8 @@
     ><text x="10" xml:space="preserve" y="11" clip-path="url(#clipPath46)" stroke="none"
       >[Nei]</text
     ></g
-    ><g font-size="11" transform="translate(171,598)" fill-opacity="1" fill="silver" text-rendering="geometricPrecision" font-family="sans-serif" stroke="silver" stroke-opacity="1"
-    ><line y2="0" fill="none" x1="0" clip-path="url(#clipPath48)" x2="36" y1="0"
-      /><line y2="13" fill="none" x1="36" clip-path="url(#clipPath48)" x2="36" y1="0"
-      /><line y2="13" fill="none" x1="36" clip-path="url(#clipPath48)" x2="0" y1="13"
-      /><line y2="13" fill="none" x1="0" clip-path="url(#clipPath48)" x2="0" y1="0"
-      /><text fill="black" x="10" xml:space="preserve" y="11" clip-path="url(#clipPath48)" stroke="none"
+    ><g font-size="11" transform="translate(171,598)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
+    ><text x="10" xml:space="preserve" y="11" clip-path="url(#clipPath48)" stroke="none"
       >[Ja]</text
     ></g
     ><g font-size="11" transform="translate(170,412)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
@@ -437,6 +433,8 @@
       >[Ja]</text
     ></g
     ><g fill="rgb(120,120,120)" text-rendering="geometricPrecision" fill-opacity="1" font-size="8" stroke-opacity="1" stroke="rgb(120,120,120)"
+    ><text x="0" xml:space="preserve" y="10" stroke="none"
+      >Visual Paradigm Standard(Unni Le(Buskerud and Vestfold University College))</text
     ></g
   ></g
 ></svg
