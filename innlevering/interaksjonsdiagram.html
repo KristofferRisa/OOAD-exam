@@ -17,10 +17,9 @@
 
 <body>
     <script src="js/navbar.js"></script>
+    <button class="tilbakeknapp" onclick="window.history.back();">Tilbake</button>
     <div id="tree"></div>
     <main class="container">
-        <h1 class="heading">Diagrammer</h1>
-        <p>Her kommer våre diagrammer</p>
         <article id="Interaksjonsdiagram">
             <h1>Aktivitetsdiagram</h1>
             <section class="two-col">
@@ -30,8 +29,16 @@
                 <a href="../dist/Interaksjonsdiagram.svg">Aktivitetsdiagram</a>
             </section>
             <br>
-            <img src="img/Interaksjonsdiagram.svg">
+            <figure class="text-center">
+                <img src="img/Interaksjonsdiagram.svg" alt="Bilde av interaksjonsdiagram.">
+                <figcaption>figur 7 - Interaksjonsdiagram</figcaption>
+            </figure>
         </article>
+        <footer class="footer">
+            <strong>Laget av:</strong>
+            7103, 7139, 7104 og 7141
+        </footer>
+
     </main>
     <script src="js/script.js"></script>
 </body>
