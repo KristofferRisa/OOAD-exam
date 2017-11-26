@@ -358,4 +358,5 @@ a:hover {
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
+    font-size: 10px;
 }
