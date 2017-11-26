@@ -10,7 +10,7 @@ document.write('<nav class="navheader" id="nav" class="nav"><ul><li><a href="ind
 // document.write('<li><a href="Sekvensdiagram.html">Sekvensdiagram</a></li>');
 // document.write('<li><a href="Tidsdelingsdiagram.html">Tidsdelingsdiagram</a></li>');
 // document.write('<li><a href="Tilstandsdiagram.html">Tilstandsdiagram</a></li>');
-document.write('<li><a href="oppgave.html">Oppgaven</a></li>');
+document.write('<li><a href="oppgave.html">Vår løsning</a></li>');
 document.write('<li><a href="diagrammer.html">Diagrammer</a></li>')
 // document.write('<li><a href="index.html#om">Oversikt</a></li>');
 document.write('<li><a href="litteraturliste.html">Litteraturliste</a></li></ul></nav>');
