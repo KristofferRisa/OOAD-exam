@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+.logo {
+    background: rgb(112,207,245);
+}
+
+/*
+	Font type og størrelse
+*/
+h1 {
+    font-size: 200%;
+    padding: 0px;
+    margin: 0;
+}
+
+h1,h2,h3,h4,figcaption,p,input,textarea {
+    font-family: 'Economica', sans-serif;
+}
+p {
+    font-family: 'Cutive Mono', sans-serif;
+}
+
+ul {
+    font-family: 'Cutive Mono', cursive;
+}
+
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+    Start NAV
+*/
+nav {
+    background: rgb(112,207,245);
+    text-align: right;
+    padding-right: 20px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul {
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+    background: rgb(112,207,245);
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px 25px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background: rgb(112,207,245);
+}
+
+nav ul li ul.dropdown {
+    
+    
+    background: rgb(112,207,245);
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+
+nav ul li:hover ul.dropdown {
+    display: block;
+}
+
+nav ul li ul.dropdown li {
+    display: block;
+}
+
+/*    CSS for sticky navbar  */
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.navbar-fixed ~ .container{
+  margin-top: 70px;
+}
+/* Nav seksjon ferdig */
+
+.heading {
+    margin-top: 10px; 
+    margin-bottom: 20px;  
+}
+
+.kontakt > input,textarea  {
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 110%;
+}
+
+.two-col {
+    -webkit-column-gap: 4em;
+    -moz-column-gap: 4em;
+    column-gap: 4em;  
+    -webkit-column-rule: 1px solid grey; 
+    -moz-column-rule: 1px solid grey; 
+    column-rule: 1px solid grey;
+    margin-bottom: 50px;
+ }
+
+@media screen and (min-width:1200px){
+  .two-col {
+      -webkit-columns: 2 200px;
+      -moz-columns: 2 200px;
+      columns: 2 200px;    
+      }
+ .container {
+    padding: 40px;
+    margin: 0 auto;
+    width: 90%;
+ }
+}
+
+@media screen and (max-width:1199px){
+  .two-col {
+      -webkit-columns: 1 200px;
+      -moz-columns: 1 200px;
+      columns: 1 200px;  
+    }
+
+    .container {
+        padding: 40px;
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+/* tilpasset mobil  */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 40px;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+.oppgave {
+    border-radius: 25px;
+    background: rgb(112,207,245);
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+    margin: auto;
+    text-align: center;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-large {
+    width: 300px;
+}
+
+.hide {
+    display: none;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.tibakeknapp {
+    position: absolute;
+    left: 100px;
+    top: 15px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(112,207,245);
+    text-align: center;
+    letter-spacing: .5px;
+    height: 45px;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+
+.tibakeknapp:hover {
+    color: #fff;
+}
+
+

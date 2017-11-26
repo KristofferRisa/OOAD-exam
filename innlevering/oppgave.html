@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="no">
+
+<head>
+    <meta charset="utf-8">
+    <title>SVG Animering</title>
+    <meta name="description" content="Eksamen USN 2017">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleDiagrams.css">
+</head>
+<body>
+
+    <script src="js/navbar.js"></script>
+
+    
+    <main class="container">
+        <h1 class="heading">Om systemet</h1>
+
+        <h1 class="heading">Diagrammer</h1>
+        <p>Her kommer våre diagrammer</p>
+        <div class="tree" id="diagram">
+            <ul>
+                <li>
+                    <span>Diagram</span>
+                    <ul>
+                        <li>
+                            <a href="#struktur?location=s" onclick="showStruktur();">Struktur</a>
+                        </li>
+
+                        <li>
+                            <a href="#atferds?location=a" onclick="showAtferds();">Atferds</a>
+
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tree hide" id="struktur">
+            <ul>
+                <li>
+                    <a href="#" onclick="visOversikt();">Diagram</a>
+                    <ul>
+                        <li>
+                            <span>Struktur</span>
+                            <ul>
+                                <li>
+                                    <a href="klassediagram.html">Klasse</a>
+                                </li>
+                                <li>
+                                    <a href="objektdiagram.html">Objekt</a>
+                                </li>
+                                <li>
+                                    <a href="pakkediagram.html">Pakke</a>
+                                </li>
+                                <li>
+                                    <a href="#">Komponent</a>
+                                </li>
+                                <li>
+                                    <a href="#">Utplasserings</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sammensatt struktur</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+            </ul>
+            </li>
+
+        </div>
+
+        <div class="tree hide" id="atferds">
+            <ul>
+                <li>
+                    <a href="#" onclick="visOversikt();">Diagram</a>
+                    <ul>
+                        <li>
+                            <span>Atferds</span>
+                            <ul>
+                                <li>
+                                    <a onclick="showInteraksjon();" href="#interaksjon?location=i">Interaksjons</a>
+                                </li>
+                                <li>
+                                    <a href="#">Bruksmønster</a>
+                                </li>
+                                <li>
+                                    <a href="aktivitetsdiagram">Aktivitets</a>
+                                </li>
+                                <li>
+                                    <a href="tilstandsdiagram.html">Tilstand</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="tree hide diagram-wide" id="interaksjon">
+            <ul>
+                <li>
+                    <a href="#" onclick="visOversikt();">Diagram</a>
+                    <ul>
+                        <li>
+                            <a href="#" onclick="showAtferds();">Atferds</a>
+
+                            <ul>
+                                <li>
+                                    <span>Interaksjons</span>
+                                    <ul>
+                                        <li>
+                                            <a href="Sekvensdiagram.html">Sekvens</a>
+                                        </li>
+                                        <li>
+                                            <a href="kommunikasjonsdiagram.html">Kommunikasjons</a>
+                                        </li>
+                                        <li>
+                                            <a href="tidsdelingsdiagram.html">Tidsdelings</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Interaksjonsoversikt</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+            </ul>
+            </li>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
