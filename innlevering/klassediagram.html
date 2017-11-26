@@ -41,14 +41,16 @@
             <h1>Klassediagram</h1>
             <section class="two-col">
                 <p>Følg link under for å se Use Case diagram for SVG-animering system.</p>
-                <p>
-                    Klassediagrammer viser klasser, interface, eller programmersgrensesnit, og hvordan de henger sammen. Denne strukturen er
-                    forutsetningen for at klassene kan samarbeide om bestemte oppgvaer i systemet. (Viggo, s. 101)
+                <p>Klassediagrammer viser klasser, interface, eller programmersgrensesnitt, og hvordan de henger sammen. Denne strukturen er forutsetningen for at klassene kan samarbeide om bestemte oppgvaer i systemet (Holmstedt, s. 101).</p>
+                    <p>Systemet er modellert etter "Layers" mønsteret og hvor layers betyr lagdeling , og hvor det øverste laget er det som er mest applikasjonsspesifikk (Holmstedt, s. 272). Vi har valgt å benytte en trelags arkitektur med presentasjonslaget SvgUI, teknisk lag SvgCore og et domenelag SvgAddon. </p>
+                    
+                    <p><em>"En arkitektur basert på veldefinerte lag fører til en god praksis for bygging av informasjonssystemer" (Holmstedt, s. 272).</em></p>
                 </p>
-                <p>
-                    GUI implementerer interfacet "IFilbehandler" for å ha mulighet til å for å få data fra objekter i klassen Disk når dataene
-                    er klare. Dette er av og til nødvendig i GUI-komponenter for å hindre at komponenter løser resten av
-                    brukerområdet og gir følelsen av å miste kontroll. (s.277 i boka)
+                <p>I pakken SvgUI ser man at MainView implementerer interfacet "IFilbehandler" for å ha mulighet til å for å få data fra objekter i klassen Disk når dataene er klare. Dette er av og til nødvendig i GUI-komponenter for å hindre at komponenter løser resten av brukerområdet og gir følelsen av å miste kontroll (Holmstedt, s.277).</p>
+                    
+                    <p>DesignView, XmlView og ForhåndsvisningsView, er alle spesialiseringer av MainView med hvert sitt ansvarsområde, som er å vise "kodemodus", "desigmodus" eller vise forhåndsvisning.</p>        
+                    <p>SvgCore er det tekniske laget og inneholder klassene SvgAnimering og interfacet IFilbehandler. Laget inneholder også en klasse som har ansvar for å håndtere vedlikehold av programmet, som oppdateringer.</p>                   
+                    <p>SvgAddon er det nederste laget, og som er minst applikasjonsspesifikk. Laget har ansvar skriving/lesing/kommunikasjon med disk, sky og database.</p>
                 </p>
             </section>
             <br>
