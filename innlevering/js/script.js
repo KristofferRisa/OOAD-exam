@@ -78,10 +78,8 @@ function createUmlTree() {
                 <li>
                     <a href="?location=s" onclick="showStruktur();">Struktur</a>
                 </li>
-
                 <li>
                     <a href="?location=a" onclick="showAtferds();">Atferds</a>
-
                 </li>
             </ul>
         </li>
@@ -114,13 +112,12 @@ function createUmlTree() {
                             <span class="tooltiptext">Ikke inkludert</span></a>
                         </li>
                         <li>
-                            <a id="sammesatt" class="tooltip not-active" href="#">Sammensatt struktur
+                            <a id="sammensatt" class="tooltip not-active" href="#">Sammensatt struktur
                             <span class="tooltiptext">Ikke inkludert</span></a>
                         </li>
                     </ul>
                 </li>
             </ul>
-
     </ul>
   
 
@@ -185,7 +182,7 @@ function createUmlTree() {
                 </li>
 
             </ul>
-    </ul>
+        </ul>
     </li>
 </div>
 `;
