@@ -96,7 +96,7 @@ nav ul li a {
 }
 
 a:hover {
-    color: white;
+    color: black;
     background: rgb(112,207,245);
 }
 
@@ -176,8 +176,8 @@ a:hover {
 }
 
 .oppgave p,a{
-    color: white;
-    text-decoration-color: white;
+    color: black;
+    text-decoration-color: black;
 }
 
 .oppgave img {
