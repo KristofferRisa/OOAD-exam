@@ -106,13 +106,16 @@ function createUmlTree() {
                             <a id="pakke" href="pakkediagram.html?location=s&active=pakke">Pakke</a>
                         </li>
                         <li>
-                            <a id="komponent" href="#">Komponent</a>
+                            <a id="komponent" class="tooltip" href="#">Komponent
+                            <span class="tooltiptext">Finnes ikke</span></a>
                         </li>
                         <li>
-                            <a id="utplassering" href="#">Utplasserings</a>
+                            <a id="utplassering" class="tooltip" href="#">Utplasserings
+                            <span class="tooltiptext">Finnes ikke</span></a>
                         </li>
                         <li>
-                            <a id="sammesatt" href="#">Sammensatt struktur</a>
+                            <a id="sammesatt" class="tooltip" href="#">Sammensatt struktur
+                            <span class="tooltiptext">Finnes ikke</span></a>
                         </li>
                     </ul>
                 </li>
