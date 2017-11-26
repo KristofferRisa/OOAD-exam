@@ -58,7 +58,8 @@ ul {
 */
 nav {
     background: rgb(112,207,245);
-    text-align: center;
+    text-align: right;
+    padding-right: 20px;
     -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
     -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
     box-shadow: 0 1px 3px rgba(0,0,0,0.4);
@@ -66,7 +67,6 @@ nav {
 
 nav ul {
     display: inline-block;
-    margin-bottom: 25px;
 }
 
 nav ul {
@@ -96,7 +96,8 @@ a:hover {
 }
 
 nav ul li ul.dropdown {
-    min-width: 206px;
+    
+    
     background: rgb(112,207,245);
     display: none;
     position: absolute;
@@ -122,40 +123,13 @@ nav ul li ul.dropdown li {
 }
 
 .navbar-fixed ~ .container{
-  margin-top: 78px;
+  margin-top: 70px;
 }
 /* Nav seksjon ferdig */
 
-/*  Footer seksjon  */
-footer {
-    background-color: rgb(112,207,245);
-    color: #3B3B3E;
-    opacity: 0.7;
-    padding: 30px;
-    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
-    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
-}
-
-footer p {
-    margin: auto;
-    width: 70%;
-    padding: 2px;
-    text-align: center;
-    color: #3B3B3E;
-    font-size: 90%;
-    text-align: center;
-    font-family: 'Economica', sans-serif;
-}
-
-footer a {
-    color: black;
-    text-decoration: none;
-}
-/* footer seksjon ferdig */
-
 .heading {
-    margin-top: 50px;   
+    margin-top: 10px; 
+    margin-bottom: 20px;  
 }
 
 .kontakt > input,textarea  {
@@ -168,13 +142,12 @@ footer a {
     -webkit-column-gap: 4em;
     -moz-column-gap: 4em;
     column-gap: 4em;  
-    -webkit-column-rule: 1px solid grey; /* Chrome, Safari, Opera */
-    -moz-column-rule: 1px solid grey; /* Firefox */
+    -webkit-column-rule: 1px solid grey; 
+    -moz-column-rule: 1px solid grey; 
     column-rule: 1px solid grey;
     margin-bottom: 50px;
  }
 
-/*    Responsiv pluss leservennlig   */
 @media screen and (min-width:1200px){
   .two-col {
       -webkit-columns: 2 200px;
@@ -184,7 +157,7 @@ footer a {
  .container {
     padding: 40px;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
  }
 }
 
@@ -194,25 +167,11 @@ footer a {
       -moz-columns: 1 200px;
       columns: 1 200px;  
     }
-/*     
-    p,li,input,textarea {
-        font-size: 1.4em;
-    }
-    
-    h1 {
-        font-size: 2.2em;
-    }
-    
-    h2 {
-        font-size: 2em;
-    }
-    h3 {
-        font-size: 1.8em;   
-    } */
+
     .container {
         padding: 40px;
         margin: 0 auto;
-        width: 70%;
+        width: 90%;
     }
 }
 /* tilpasset mobil  */
@@ -240,14 +199,22 @@ footer a {
     margin-right: auto;
 }
 
+.img-large {
+    width: 300px;
+}
+
 .hide {
     display: none;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
 }
+
 .tibakeknapp {
     position: absolute;
-    right: 100px;
+    left: 100px;
+    top: 15px;
     text-decoration: none;
-    color: #fff;
+    color: black;
     background-color: rgb(112,207,245);
     text-align: center;
     letter-spacing: .5px;
@@ -256,3 +223,9 @@ footer a {
     transition: .2s ease-out;
     cursor: pointer;
 }
+
+.tibakeknapp:hover {
+    color: #fff;
+}
+
+

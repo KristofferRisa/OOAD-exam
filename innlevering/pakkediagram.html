@@ -9,39 +9,25 @@
     <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        img {
-            width: auto;
-            height: auto;
-        }
-    </style>
-
 </head>
 
 <body>
-
     <script src="js/navbar.js"></script>
     <main class="container">
-
-        <h1 class="heading">Diagrammer</h1>
-        <p>Her kommer våre diagrammer</p>
-
+        <button class="tibakeknapp" onclick="window.history.back();">Tilbake</button>
+        <h1 class="heading">Pakkediagram</h1>
         <article id="pakkediagram">
-            <h1>Pakkediagram</h1>
             <section class="two-col">
-
-                <p>Følg link under for å se aktivitetsdiagram for SVG-animering systemet</p>
-                <a href="../dist/pakkediagram.svg">Aktivitetsdiagram</a>
-
+                    <p>Et pakkediagram samler flere ting under et felles navn. Pakkediagrammer viser flere pakker og forbindelser mellom dem. Fowler [2004] Skriver blant annet at pakker tilsvarer pakker i Java og navneområder i C++ og .NET. (Viggo, s. 108 og 109.)</p>
+                    
+                    <p>I vårt pakkediagram viser vi forholdene til de 3 pakke som er blitt laget for å understøtte bassis funksjonalitet og GUI komponenter i SVG animeringsprogrammet.</p>
+                    
+                    <p>Pakkediagrammet støtter også en 3-lags arkitektur ved med GUI på toppen og domene/forretningslag i CORE og til slutte finnes det tekniske laget i ADDON klassen. ** Det ligger også noe teknisk lag i CORE.</p>
             </section>
             <br>
-            <img src="../dist/pakkediagram.svg">
+            <img class="img-center img-large" src="../dist/pakkediagram.svg">
         </article>
-
-
     </main>
-
-    <script src="js/footer.js"></script>
 </body>
 
 </html>
