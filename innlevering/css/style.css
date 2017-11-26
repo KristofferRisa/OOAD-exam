@@ -47,15 +47,21 @@ ul {
     font-family: 'Cutive Mono', cursive;
 }
 
+.mockup {
+    height: 450px;
+    width: auto;
+}
+
 .logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*
-    Start NAV
-*/
+.text-center {
+    text-align: center;
+}
+
 nav {
     background: rgb(112,207,245);
     text-align: right;
@@ -155,7 +161,7 @@ nav ul li ul.dropdown li {
       columns: 2 200px;    
       }
  .container {
-    padding: 40px;
+    padding: 10px;
     margin: 0 auto;
     width: 90%;
  }
@@ -169,7 +175,7 @@ nav ul li ul.dropdown li {
     }
 
     .container {
-        padding: 40px;
+        padding: 20px;
         margin: 0 auto;
         width: 90%;
     }
@@ -177,7 +183,7 @@ nav ul li ul.dropdown li {
 /* tilpasset mobil  */
 @media screen and (max-width: 600px) {
     .container {
-        padding: 40px;
+        padding: 20px;
         margin: 0 auto;
         width: 80%;
     }
@@ -228,6 +234,7 @@ nav ul li ul.dropdown li {
     color: #fff;
 }
 
+<<<<<<< HEAD
 
  /* UML Diagram tree */
  .tree {
@@ -336,3 +343,10 @@ nav ul li ul.dropdown li {
   .tree {
     width: 100%;
   }
+=======
+.active {
+    background: rgb(112,207,245);
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+>>>>>>> master

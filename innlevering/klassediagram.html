@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleDiagrams.css">
 </head>
 
 <body>
@@ -17,10 +18,14 @@
     <main class="container">
         <button class="tibakeknapp" onclick="window.history.back();">Tilbake</button>
 
-        <h1 class="">Diagrammer</h1>
+                <div id="tree">
+                        
+                      </div>
+        
+             
+     
 
         <article id="klassediagram">
-
             <h1>Klassediagram</h1>
             <section class="two-col">
                 <p>Følg link under for å se Use Case diagram for SVG-animering system.</p>
@@ -35,11 +40,115 @@
                 </p>
             </section>
             <br>
-            <img src="../dist/klassediagram.svg">
+            <figure class="text-center">
+                    <img src="../dist/klassediagram.svg" alt="Bilde av klassediagrammet">
+                    <figcaption>Figur 1. Klassediagram</figcaption>
+            </figure>
+            
+            
             <br>
             <a href="../dist/klassediagram.svg">Se full størrelse</a>
+
+            <div class="tree hide" id="struktur">
+                    <ul>
+                        <li>
+                            <a href="#" onclick="visOversikt();">Diagram</a>
+                            <ul>
+                                <li>
+                                    <span>Struktur</span>
+                                    <ul>
+                                        <li >
+                                            <a href="klassediagram.html">Klasse</a>
+                                        </li>
+                                        <li>
+                                            <a href="objektdiagram.html">Objekt</a>
+                                        </li>
+                                        <li>
+                                            <a href="pakkediagram.html">Pakke</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Komponent</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Utplasserings</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Sammensatt struktur</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+        
+                    </ul>
+                    </li>
+        
+                </div>
+        
+                <div class="tree hide" id="atferds">
+                    <ul>
+                        <li>
+                            <a href="#" onclick="visOversikt();">Diagram</a>
+                            <ul>
+                                <li>
+                                    <span>Atferds</span>
+                                    <ul>
+                                        <li>
+                                            <a onclick="showInteraksjon();" href="#interaksjon?location=i">Interaksjons</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Bruksmønster</a>
+                                        </li>
+                                        <li>
+                                            <a href="aktivitetsdiagram">Aktivitets</a>
+                                        </li>
+                                        <li>
+                                            <a href="tilstandsdiagram.html">Tilstand</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+        
+                </div>
+        
+                <div class="tree hide diagram-wide" id="interaksjon">
+                    <ul>
+                        <li>
+                            <a href="#" onclick="visOversikt();">Diagram</a>
+                            <ul>
+                                <li>
+                                    <a href="#" onclick="showAtferds();">Atferds</a>
+        
+                                    <ul>
+                                        <li>
+                                            <span>Interaksjons</span>
+                                            <ul>
+                                                <li>
+                                                    <a href="Sekvensdiagram.html">Sekvens</a>
+                                                </li>
+                                                <li>
+                                                    <a href="kommunikasjonsdiagram.html">Kommunikasjons</a>
+                                                </li>
+                                                <li>
+                                                    <a href="tidsdelingsdiagram.html">Tidsdelings</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Interaksjonsoversikt</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+        
+                            </ul>
+                    </ul>
+                    </li>
+                </div>
+
         </article>
     </main>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
