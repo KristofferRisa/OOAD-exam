@@ -170,11 +170,11 @@
     /></g
     ><g font-size="11" transform="matrix(1,0,0,1,492,79)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
     ><text x="2" xml:space="preserve" y="14" clip-path="url(#clipPath10)" stroke="none"
-      >-disk = Meny.disk</text
+      >-disk = :Meny.disk</text
     ></g
     ><g font-size="11" transform="translate(492,64)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" font-weight="bold" stroke-opacity="1"
-    ><text x="74" xml:space="preserve" y="12" clip-path="url(#clipPath11)" stroke="none"
-      >Meny</text
+    ><text x="73" xml:space="preserve" y="12" clip-path="url(#clipPath11)" stroke="none"
+      >:Meny</text
     ></g
     ><g font-size="11" transform="translate(727,64)" fill-opacity="1" fill="rgb(122,207,245)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(122,207,245)" font-weight="bold" stroke-opacity="1"
     ><rect x="0" width="178" height="63" y="0" clip-path="url(#clipPath7)" stroke="none"
@@ -188,8 +188,8 @@
       >-filnavn = "test.svg"</text
     ></g
     ><g font-size="11" transform="translate(727,64)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" font-weight="bold" stroke-opacity="1"
-    ><text x="38" xml:space="preserve" y="12" clip-path="url(#clipPath11)" stroke="none"
-      >DiskDataBehandler</text
+    ><text x="36" xml:space="preserve" y="12" clip-path="url(#clipPath11)" stroke="none"
+      >:DiskDataBehandler</text
     ></g
     ><g font-size="11" transform="translate(492,452)" fill-opacity="1" fill="rgb(122,207,245)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(122,207,245)" font-weight="bold" stroke-opacity="1"
     ><rect x="0" width="178" height="66" y="0" clip-path="url(#clipPath12)" stroke="none"
@@ -219,15 +219,15 @@
     /></g
     ><g fill-opacity="1" text-rendering="geometricPrecision" stroke="black" stroke-linecap="butt" transform="translate(492,258)" stroke-miterlimit="0" stroke-opacity="1" fill="black" font-weight="bold" font-family="sans-serif" stroke-linejoin="round" font-size="11" image-rendering="optimizeQuality"
     ><rect fill="none" x="0" width="178" height="63" y="0" clip-path="url(#clipPath7)"
-      /><line y2="14" fill="none" x1="0" clip-path="url(#clipPath7)" x2="178" y1="14"
+      /><line y2="15" fill="none" x1="0" clip-path="url(#clipPath7)" x2="178" y1="15"
     /></g
-    ><g font-size="11" transform="matrix(1,0,0,1,492,272)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
-    ><text x="2" xml:space="preserve" y="14" clip-path="url(#clipPath8)" stroke="none"
+    ><g font-size="11" transform="matrix(1,0,0,1,492,273)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
+    ><text x="2" xml:space="preserve" y="14" clip-path="url(#clipPath10)" stroke="none"
       >-spillAv = false;</text
     ></g
     ><g font-size="11" transform="translate(492,258)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" font-weight="bold" stroke-opacity="1"
-    ><text x="29" xml:space="preserve" y="12" clip-path="url(#clipPath9)" stroke="none"
-      >F:orhåndsvisningView</text
+    ><text x="29" xml:space="preserve" y="12" clip-path="url(#clipPath11)" stroke="none"
+      >:ForhåndsvisningView</text
     ></g
     ><g stroke-linecap="butt" font-size="11" transform="translate(417,361)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1"
     ><line y2="25" fill="none" x1="50" clip-path="url(#clipPath15)" x2="25" y1="25"
@@ -265,6 +265,8 @@
       /><polygon fill="none" points=" 99 50 87 44 75 50 87 56" clip-path="url(#clipPath19)"
     /></g
     ><g font-size="8" fill-opacity="1" fill="rgb(120,120,120)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" stroke="rgb(120,120,120)" stroke-opacity="1"
+    ><text x="0" xml:space="preserve" y="10" stroke="none"
+      >Visual Paradigm Standard(Martin Pedersen(Buskerud and Vestfold University College))</text
     ></g
   ></g
 ></svg
