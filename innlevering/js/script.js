@@ -1,4 +1,4 @@
-function showStruktur()  {
+function showStruktur() {
     document.getElementById("diagram").classList.add('hide');
     document.getElementById("atferds").classList.add('hide');
     document.getElementById("interaksjon").classList.add('hide');
@@ -28,7 +28,17 @@ function visOversikt() {
 
 (function () {
     createUmlTree();
-    _location = getParameterByName('location'); 
+    _location = getParameterByName('location');
+    if(_location)
+        setLocationInUmlTree(_location);    
+    
+    _active = getParameterByName('active');
+    if (_active) 
+        setActiveById(_active);
+    
+})();
+
+function setLocationInUmlTree(_location){
     console.log("?location= " + _location);
     switch (_location) {
         case "s":
@@ -41,14 +51,10 @@ function visOversikt() {
             showInteraksjon();
             break;
     }
-   _active = getParameterByName('active');
-    console.log("?active="+_active)
-    setActiveById(_active);
+}
 
-})();
-
-
-function setActiveById(_id){
+function setActiveById(_id) {
+    console.log("?active=" + _id);
     document.getElementById(_id).classList.add('active');
 }
 
@@ -62,7 +68,7 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-function createUmlTree(){
+function createUmlTree() {
     var html = `
 <div class="tree" id="diagram">
     <ul>
@@ -70,11 +76,11 @@ function createUmlTree(){
             <span>Diagram</span>
             <ul>
                 <li>
-                    <a href="#struktur?location=s" onclick="showStruktur();">Struktur</a>
+                    <a href="?location=s" onclick="showStruktur();">Struktur</a>
                 </li>
 
                 <li>
-                    <a href="#atferds?location=a" onclick="showAtferds();">Atferds</a>
+                    <a href="?location=a" onclick="showAtferds();">Atferds</a>
 
                 </li>
             </ul>
@@ -85,7 +91,7 @@ function createUmlTree(){
 <div class="tree hide" id="struktur">
     <ul>
         <li>
-            <a href="#" onclick="visOversikt();">Diagram</a>
+            <a href="?loaction=d" onclick="visOversikt();">Diagram</a>
             <ul>
                 <li>
                     <span>Struktur</span>
@@ -97,7 +103,7 @@ function createUmlTree(){
                             <a id="objekt" href="objektdiagram.html?location=s&active=objekt">Objekt</a>
                         </li>
                         <li>
-                            <a id="pakke" href="pakkediagram.html">Pakke</a>
+                            <a id="pakke" href="pakkediagram.html?location=s&active=pakke">Pakke</a>
                         </li>
                         <li>
                             <a id="komponent" href="#">Komponent</a>
@@ -113,14 +119,14 @@ function createUmlTree(){
             </ul>
 
     </ul>
-    </li>
+  
 
 </div>
 
 <div class="tree hide" id="atferds">
     <ul>
         <li>
-            <a href="#" onclick="visOversikt();">Diagram</a>
+            <a href="?loaction=d" onclick="visOversikt();">Diagram</a>
             <ul>
                 <li>
                     <span>Atferds</span>
@@ -129,13 +135,13 @@ function createUmlTree(){
                             <a onclick="showInteraksjon();" href="#interaksjon?location=i">Interaksjons</a>
                         </li>
                         <li>
-                            <a id="usecase" href="#">Bruksmønster</a>
+                            <a id="usecase" href="bruksmonsterdiagram.html?location=a&active=usecase">Bruksmønster</a>
                         </li>
                         <li>
-                            <a id="aktivitetsdiagram" href="aktivitetsdiagram">Aktivitets</a>
+                            <a id="aktivitet" href="aktivitetsdiagram.html?location=a&active=aktivitet">Aktivitets</a>
                         </li>
                         <li>
-                            <a id="tilstand" href="tilstandsdiagram.html">Tilstand</a>
+                            <a id="tilstand" href="tilstandsdiagram.html?location=a&active=tilstand">Tilstand</a>
                         </li>
                     </ul>
                 </li>
@@ -148,26 +154,25 @@ function createUmlTree(){
 <div class="tree hide diagram-wide" id="interaksjon">
     <ul>
         <li>
-            <a href="#" onclick="visOversikt();">Diagram</a>
+            <a href="?locatoin=d" onclick="visOversikt();">Diagram</a>
             <ul>
                 <li>
-                    <a href="#" onclick="showAtferds();">Atferds</a>
-
+                    <a href="?location=a" onclick="showAtferds();">Atferds</a>
                     <ul>
                         <li>
                             <span>Interaksjons</span>
                             <ul>
                                 <li>
-                                    <a id="sekvensdiagram" href="Sekvensdiagram.html">Sekvens</a>
+                                    <a id="sekvens" href="Sekvensdiagram.html?location=i&active=sekvens">Sekvens</a>
                                 </li>
                                 <li>
-                                    <a id="kommunikasjon" href="kommunikasjonsdiagram.html">Kommunikasjons</a>
+                                    <a id="kommunikasjon" href="kommunikasjonsdiagram.html?location=i&active=kommunikasjon">Kommunikasjon</a>
                                 </li>
                                 <li>
-                                    <a id="tidsdeling" href="tidsdelingsdiagram.html">Tidsdelings</a>
+                                    <a id="tidsdeling" href="tidsdelingsdiagram.html?location=i&active=tidsdeling">Tidsdelings</a>
                                 </li>
                                 <li>
-                                    <a id="interaksjon" href="#">Interaksjonsoversikt</a>
+                                    <a id="Interaksjonsoversikt" href="interaksjonsdiagram.html?location=i&active=Interaksjonsoversikt">Interaksjonsoversikt</a>
                                 </li>
                             </ul>
                         </li>
@@ -181,7 +186,7 @@ function createUmlTree(){
 `;
 
     var tree = document.getElementById('tree');
-    if(tree){
+    if (tree) {
         tree.innerHTML = html;
     }
 }

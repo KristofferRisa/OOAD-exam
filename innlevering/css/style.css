@@ -215,7 +215,7 @@ nav ul li ul.dropdown li {
     transition: visibility 0s, opacity 0.5s linear;
 }
 
-.tibakeknapp {
+.tilbakeknapp {
     position: absolute;
     left: 100px;
     top: 15px;
@@ -234,7 +234,11 @@ nav ul li ul.dropdown li {
     color: #fff;
 }
 
-<<<<<<< HEAD
+.active {
+    background: rgb(112,207,245);
+    text-decoration: underline;
+    text-decoration-color: white;
+}
 
  /* UML Diagram tree */
  .tree {
@@ -343,10 +347,4 @@ nav ul li ul.dropdown li {
   .tree {
     width: 100%;
   }
-=======
-.active {
-    background: rgb(112,207,245);
-    text-decoration: underline;
-    text-decoration-color: white;
-}
->>>>>>> master
+ /* UML Diagram tree  ferdig */
