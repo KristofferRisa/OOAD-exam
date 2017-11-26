@@ -77,7 +77,6 @@ nav ul {
 nav ul li {
     display: inline-block;
     position: relative;
-    /* line-height: 21px; */
 }
 
 nav ul li a {
@@ -88,8 +87,11 @@ nav ul li a {
 }
 
 a:hover {
+
+    /* display: block; */
     color: black;
     background: rgb(112,207,245);
+    
 }
 
 /* Nav seksjon ferdig */
@@ -197,25 +199,6 @@ p a {
     display: none;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s linear;
-}
-
-.tilbakeknapp {
-    position: absolute;
-    left: 5%;
-    top: 15px;
-    text-decoration: none;
-    color: black;
-    background-color: rgb(112,207,245);
-    text-align: center;
-    letter-spacing: .5px;
-    height: 45px;
-    -webkit-transition: .2s ease-out;
-    transition: .2s ease-out;
-    cursor: pointer;
-}
-
-.tibakeknapp:hover {
-    color: #fff;
 }
 
 .active {
