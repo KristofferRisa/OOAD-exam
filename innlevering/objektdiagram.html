@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="no">
+
 <head>
     <meta charset="utf-8">
     <title>SVG Animering - objektdiagram</title>
@@ -13,24 +14,31 @@
 <body>
 
     <script src="js/navbar.js"></script>
-    <main class="container">
-            <button class="tibakeknapp" onclick="window.history.back();">Tilbake</button>
-        
-        <article id="objektdiagram">
-            <h1 class="heading">Objektdiagram</h1>
-            <section class="two-col">
+    <button onclick="window.history.back();">
+        <-- </button>
+            <main class="container">
+                <article id="objektdiagram">
 
-                  <p>Objektdiagrammer viser hvilke <a href="klassediagram.html">klasser</a> som er instansiert på ulike tidspunkt. Ett objektdiagram viser ett tidspunkt. Vi kan si at objektdiagram er et øyeblikksbilde av et kjørende system. (Viggo, s. 102)</p>
-                    
-                    <p>I vårt diagrammer ser du tilstanden til systemet ved last inn og lagre. Vi har valgt å vise dette med samme diagram og ved bruk av dummyfilen "test.svg", dette fordi tilstanden ikke fraviker stort ved disse to operasjonene. Hvis tilstanden hadde vært "lagre som" så ville eventuelt filnavnet bli endret.</p>
+                    <h1>Objektdiagram</h1>
+                    <section class="two-col">
 
-            </section>
-            <br>
-            <img src="../dist/objectdiagram.svg">
-        </article>
+                        <p>
+                                Objektdiagrammer viser hvilke klasser som er instansiert på ulike tidspunkt. 
+                                Ett objektdiagram viser ett tidspunkt. Vi kan si at objektdiagram er et 
+                                øyeblikksbilde av et kjørende system. (Viggo, s. 102)
+                        </p>
+                        <p>
+                                I vårt diagrammer ser du tilstanden til systemet ved last inn og lagre. 
+                                Vi har valgt å vise dette med samme diagram og ved bruk av dummyfilen "test.svg", 
+                                dette fordi tilstanden ikke fraviker stort ved disse to operasjonene. Hvis tilstanden hadde vært 
+                                "lagre som" så ville eventuelt filnavnet bli endret.
+                        </p>
+                    </section>
+                    <br>
+                    <img src="../dist/objektdiagram.svg">
+                </article>
 
-
-    </main>
+            </main>
 </body>
 
 </html>

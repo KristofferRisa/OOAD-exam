@@ -42,13 +42,13 @@
       ><path d="M-176 -15 L352 -15 L352 30 L-176 30 L-176 -15 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath13"
-      ><path d="M-72 -15 L144 -15 L144 30 L-72 30 L-72 -15 Z"
+      ><path d="M-116 -15 L232 -15 L232 30 L-116 30 L-116 -15 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath14"
       ><path d="M0 0 L311 0 L311 84 L0 84 L0 0 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath15"
-      ><path d="M0 0 L0 68 L48 68 L48 82 L0 82 L0 84 L117 84 L117 71 L189 71 L189 84 L311 84 L311 0 L262 0 L262 11 L32 11 L32 0 Z"
+      ><path d="M0 0 L0 68 L48 68 L48 82 L0 82 L0 84 L95 84 L95 71 L211 71 L211 84 L311 84 L311 0 L262 0 L262 11 L32 11 L32 0 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath16"
       ><path d="M0 0 L84 0 L84 184 L0 184 L0 0 Z"
@@ -194,9 +194,9 @@
     ><text x="12" xml:space="preserve" y="12" clip-path="url(#clipPath10)" stroke="none"
       >1.4: leggTilAnimering()</text
     ></g
-    ><g font-size="11" transform="translate(123,241)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
-    ><text x="10" xml:space="preserve" y="12" clip-path="url(#clipPath13)" stroke="none"
-      >2: Lagre fil</text
+    ><g font-size="11" transform="translate(101,241)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
+    ><text x="11" xml:space="preserve" y="12" clip-path="url(#clipPath13)" stroke="none"
+      >2: Ønsker å lagre fil</text
     ></g
     ><g stroke-linecap="butt" font-size="11" transform="translate(6,170)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1"
     ><line y2="40" fill="none" x1="40" clip-path="url(#clipPath15)" x2="267" y1="40"
@@ -215,6 +215,8 @@
       >[riktig filformat valgt]</text
     ></g
     ><g font-size="8" fill-opacity="1" fill="rgb(120,120,120)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" stroke="rgb(120,120,120)" stroke-opacity="1"
+    ><text x="0" xml:space="preserve" y="10" stroke="none"
+      >Visual Paradigm Standard(Martin Pedersen(Buskerud and Vestfold University College))</text
     ></g
   ></g
 ></svg
