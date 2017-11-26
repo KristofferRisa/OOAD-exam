@@ -172,7 +172,7 @@ function createUmlTree() {
                                     <a id="tidsdeling" href="tidsdelingsdiagram.html?location=i&active=tidsdeling">Tidsdelings</a>
                                 </li>
                                 <li>
-                                <a id="Interaksjonsoversikt" class="tooltip" href="#">Interaksjonsoversikt
+                                <a id="Interaksjonsoversikt" class="tooltip not-active" href="#">Interaksjonsoversikt
                                 <span class="tooltiptext">Ikke inkludert</span></a>
                             </li>
 
