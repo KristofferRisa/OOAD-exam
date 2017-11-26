@@ -117,9 +117,6 @@ function createUmlTree() {
                         </li>
                     </ul>
                 </li>
-                <li>
-                <a href="?location=a" onclick="showAtferds();">Atferds</a>
-            </li>
             </ul>
     </ul>
   
